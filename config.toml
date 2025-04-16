@@ -1,0 +1,7 @@
+baseURL = "https://savemybonsai.com/"
+title   = "Save My Bonsai"
+languageCode = "en-us"
+paginate = 10
+[params]
+  color = "green"
+  description = "Fix every indoor bonsai problem—watering, pests, pruning & more."
