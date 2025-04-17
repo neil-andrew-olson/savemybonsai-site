@@ -2,7 +2,7 @@
 title: "How to Detect and Treat Bonsai Root Rot"
 ---
 
-![Root Rot](root-rot.jpg.png)
+![Root Rot](root-rot.jpg)
 
 Root rot is a devastating condition that can quickly lead to the demise of your beloved bonsai. It's caused by prolonged exposure to overly wet conditions, creating an anaerobic environment where harmful fungi thrive and attack the root system. Early detection and prompt, decisive action are essential for saving your bonsai from this silent killer.
 **Understanding Root Rot:**
