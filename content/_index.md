@@ -1,6 +1,11 @@
 ---
 title: "Save My Bonsai"
-description: "SaveMyBonsai.com is your ultimate guide to indoor bonsai care. Learn how to identify and fix common problems, master essential techniques, and keep your bonsai thriving."
+description: "Troubleshooting indoor bonsai care — watering issues, pests, soil, and more."
 ---
 
-Welcome to SaveMyBonsai.com! We are dedicated to rescuing indoor bonsai and providing expert advice on their care. Browse our latest posts for tips and tricks to keep your bonsai thriving.
+Welcome to **Save My Bonsai** — your go-to source for diagnosing and fixing common indoor bonsai problems.
+
+🔧 New here? Start with:
+- [Why are my bonsai leaves turning yellow?](bonsai/problems/yellow-leaves)
+- [How to repot your bonsai](bonsai/care-basics/repotting-guide)
+- [Choosing the best grow lights](bonsai/tools-reviews/grow-lights)
