@@ -3,7 +3,7 @@ title: "Step‑by‑Step Guide to Repotting Indoor Bonsai"
 ---
 
 
-![Repotting Bonsai](/images/repotting-bonsai.jpg.png)
+![Repotting Bonsai](/images/repotting-bonsai.jpg)
 
 Repotting is an essential part of bonsai care. It provides the bonsai with fresh soil, allows for root pruning, and helps to maintain the bonsai's size and shape. Repotting frequency depends on the species and age of the bonsai, but generally, young bonsai should be repotted every year, while older bonsai can be repotted every two to three years.
 
