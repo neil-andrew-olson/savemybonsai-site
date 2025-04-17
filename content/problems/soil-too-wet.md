@@ -2,8 +2,6 @@
 title: "Bonsai Soil Stays Wet: Causes & Solutions"
 ---
 
-![Wet Soil](placeholder-wet-soil.jpg)
-
 
 
 ![Wet Soil](static/images/wet-soil.jpg)
