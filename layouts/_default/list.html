@@ -11,10 +11,12 @@
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections -}}<!---->
 {{- end -}}
 
+
+{{- .Content -}}
+
 <!-- Articles -->
 {{- $paginator := .Paginate $pages -}} {{- range $index, $page :=
 $paginator.Pages -}}<!---->
-
 <!-- avatar -->
 {{- if and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) -}}<!---->
 
