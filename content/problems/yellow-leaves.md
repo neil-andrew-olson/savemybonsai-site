@@ -1,6 +1,4 @@
 ---
-continue adding detail to the atricles
----
 title: "Indoor Bonsai Turning Yellow? Here’s the Fix"
 description: "Discover the common causes of yellow leaves on indoor bonsai and learn how to diagnose and fix the problem with our expert advice."
 ---
