@@ -3,7 +3,7 @@ title: "Indoor Bonsai Turning Yellow? Here’s the Fix"
 description: "Discover the common causes of yellow leaves on indoor bonsai and learn how to diagnose and fix the problem with our expert advice."
 ---
 
-![Yellow Leaves](static/images/yellow-leaves.jpg)
+![Yellow Leaves](/images/yellow-leaves.jpg.png)
 
 Yellow leaves on your indoor bonsai can be alarming, but it's often a sign that something is amiss in its care routine. Identifying the underlying cause is crucial for restoring your bonsai to health.
 
