@@ -126,6 +126,39 @@ article {
   }
 }
 
+form {
+  @apply mt-4;
+
+  label {
+    @apply block font-medium text-black dark:text-white;
+  }
+
+  input,
+  textarea {
+    @apply w-full rounded-md border border-black/20 bg-white px-3 py-2 text-sm text-black placeholder:text-black/40 dark:border-white/20 dark:bg-black dark:text-white dark:placeholder:text-white/40;
+  }
+
+  textarea {
+    @apply h-32;
+  }
+
+  input[type="submit"] {
+    @apply btn mt-4;
+  }
+}
+
 .open {
   @apply overflow-hidden;
+}
+
+.search-form {
+  @apply flex items-center ltr:ml-4 rtl:mr-4;
+
+  input {
+    @apply rounded-md border border-black/20 bg-white px-3 py-1 text-sm text-black placeholder:text-black/40 dark:border-white/20 dark:bg-black dark:text-white dark:placeholder:text-white/40;
+  }
+
+  button {
+    @apply btn ml-2 shrink-0;
+  }
 }

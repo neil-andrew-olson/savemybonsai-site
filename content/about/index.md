@@ -4,8 +4,6 @@ title: "About Us"
 
 We rescue indoor bonsai and provide expert advice on their care. Our mission is to help bonsai enthusiasts keep their miniature trees thriving. We offer a variety of resources, including articles, guides, and personalized advice.
 
-![AI Generated Face](placeholder-ai-face.png)
+**Our Team**
 
-**[Placeholder for AI-generated face and short bio]**
-
-We are passionate about bonsai and dedicated to providing the best possible care for these amazing plants.
+SaveMyBonsai.com is run by Bonsai Bob, an experienced bonsai enthusiast and horticultural expert. I have been growing and caring for bonsai for many years, and I am dedicated to sharing my knowledge and expertise with others.

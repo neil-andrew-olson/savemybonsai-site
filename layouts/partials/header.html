@@ -12,7 +12,11 @@
       role="button"
       aria-label="Dark"
     ></div>
-  </div>
+   <form class="search-form" action="/search" method="get">
+     <input type="text" name="q" placeholder="Search..." aria-label="Search">
+     <button type="submit" aria-label="Submit Search">Search</button>
+   </form>
+ </div>
 
   <div
     class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
@@ -91,7 +95,7 @@
       <a
         class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
         style="--url: url(./{{- . -}}.svg)"
-        href="{{- if eq . `rss` -}}{{- `index.xml` | absURL -}}{{- else if eq . `mastodon` -}}{{- index site.Params . -}}{{- else -}}{{- if eq . `threads` -}}https://threads.net/{{- else if eq . `bluesky` -}}https://bsky.app/profile/{{- else -}}https://{{- . -}}.com/{{- end -}}{{- if eq . `linkedin` -}}in/{{- end -}}{{- index site.Params . -}}{{- end -}}"
+        href="{{- index site.Params . -}}"
         target="_blank"
         rel="{{- if eq . `rss` -}}alternate{{- else -}}me{{- end -}}"
       >

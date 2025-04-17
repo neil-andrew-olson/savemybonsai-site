@@ -1,5 +1,6 @@
 ---
 title: "Save My Bonsai"
+description: "SaveMyBonsai.com is your ultimate guide to indoor bonsai care. Learn how to identify and fix common problems, master essential techniques, and keep your bonsai thriving."
 layout: list
 ---
 

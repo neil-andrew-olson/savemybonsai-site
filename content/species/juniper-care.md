@@ -2,6 +2,9 @@
 title: "Indoor Juniper Bonsai Care for Beginners"
 ---
 
+
+![Juniper Bonsai](static/images/juniper-bonsai.jpg)
+
 Juniper bonsai are a popular choice for beginners due to their hardiness and ease of care. However, they still require specific care to thrive indoors. Understanding their needs and providing the right environment will ensure a healthy and beautiful bonsai.
 
 **Light:**
@@ -32,11 +35,11 @@ Juniper bonsai need regular fertilization during the growing season to provide t
 
 **Pruning:**
 
-Pruning is essential for maintaining the shape and health of your juniper bonsai.
+Pruning is essential for maintaining the shape and health of your juniper bonsai. There are two main types of pruning: pinching and structural pruning.
 
-*   **Pinch back new growth:** Pinch back new growth regularly to maintain the bonsai's shape and encourage denser foliage. Use your fingers or small scissors to pinch off the tips of new shoots.
-*   **Prune older branches:** Prune older branches in the late winter or early spring to maintain the bonsai's overall shape. Use sharp, sterilized pruning shears.
-*   **Remove dead or diseased branches:** Remove any dead or diseased branches as soon as you notice them.
+*   **Pinching:** Pinching involves removing the tips of new shoots to encourage denser foliage and maintain the bonsai's shape. Use your fingers or small scissors to pinch off the tips of new shoots. Pinch back new growth regularly during the growing season.
+*   **Structural Pruning:** Structural pruning involves removing larger branches to maintain the bonsai's overall shape and create a more balanced design. Prune older branches in the late winter or early spring, before new growth begins. Use sharp, sterilized pruning shears.
+*   **Remove dead or diseased branches:** Remove any dead or diseased branches as soon as you notice them. This will help to prevent the spread of disease and maintain the bonsai's health.
 
 **Common Problems:**
 

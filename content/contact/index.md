@@ -15,3 +15,21 @@ We welcome questions about bonsai care, as well as inquiries about potential spo
   <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
   <input type="submit" value="Submit">
 </form>
+<script>
+  const form = document.querySelector('form');
+  form.addEventListener('submit', (event) => {
+    if (!form.name.value || !form.email.value || !form.message.value) {
+      alert('Please fill in all required fields.');
+      event.preventDefault();
+    }
+    if (!isValidEmail(form.email.value)) {
+      alert('Please enter a valid email address.');
+      event.preventDefault();
+    }
+  });
+
+  function isValidEmail(email) {
+    const emailRegex = /^[\s@]+@[\s@]+\.[\s@]+$/;
+    return emailRegex.test(email);
+  }
+</script>
