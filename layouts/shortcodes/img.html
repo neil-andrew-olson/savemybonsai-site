@@ -1,8 +1,8 @@
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
-{{ $alt := .Get "alt" | default $src.Title }}
 {{ $loading := .Get "loading" | default "lazy" }}
 
 {{ if $src }}
+  {{ $alt := .Get "alt" | default $src.Title }}
   {{ $tiny := $src.Resize "480x" }}
   {{ $small := $src.Resize "768x" }}
   {{ $medium := $src.Resize "1024x" }}
