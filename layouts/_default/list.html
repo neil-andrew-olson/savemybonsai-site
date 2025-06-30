@@ -12,7 +12,9 @@
 {{- end -}}
 
 
-{{- .Content -}}
+{{- if not .IsHome -}}
+  {{- .Content -}}
+{{- end -}}
 
 <!-- Articles -->
 {{- $paginator := .Paginate $pages -}} {{- range $index, $page :=
