@@ -29,7 +29,7 @@ We welcome questions about bonsai care, as well as inquiries about potential spo
   });
 
   function isValidEmail(email) {
-    const emailRegex = /^[\s@]+@[\s@]+\.[\s@]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   }
 </script>
