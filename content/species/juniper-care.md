@@ -3,7 +3,7 @@ title: "Indoor Juniper Bonsai Care for Beginners"
 ---
 
 
-![Juniper Bonsai](juniper-bonsai.jpg)
+{{< img src="juniper-bonsai.png" alt="Juniper Bonsai" >}}
 
 Juniper bonsai are a popular choice for beginners due to their hardiness and ease of care. However, they still require specific care to thrive indoors. Understanding their needs and providing the right environment will ensure a healthy and beautiful bonsai.
 

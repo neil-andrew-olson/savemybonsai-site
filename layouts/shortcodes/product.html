@@ -1,0 +1,8 @@
+<div class="product-recommendation">
+  <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer">
+    <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" loading="lazy">
+    <h3>{{ .Get "name" }}</h3>
+  </a>
+  <p>{{ .Get "description" }}</p>
+  <a href="{{ .Get "link" }}" class="btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+</div>

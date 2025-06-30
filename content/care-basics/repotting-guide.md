@@ -3,7 +3,7 @@ title: "Step‑by‑Step Guide to Repotting Indoor Bonsai"
 ---
 
 
-![Repotting Bonsai](repotting-bonsai.jpg)
+{{< img src="repotting-bonsai.png" alt="Repotting Bonsai" >}}
 
 Repotting is an essential part of bonsai care. It provides the bonsai with fresh soil, allows for root pruning, and helps to maintain the bonsai's size and shape. Repotting frequency depends on the species and age of the bonsai, but generally, young bonsai should be repotted every year, while older bonsai can be repotted every two to three years.
 
@@ -39,3 +39,9 @@ The right soil mix is crucial for the health of your bonsai. A good bonsai soil 
 6.  **Water and care for the repotted bonsai:** After repotting, water the bonsai thoroughly with a gentle spray. Allow the water to drain out of the bottom of the pot. Place the repotted bonsai in a sheltered location away from direct sunlight and wind for a few weeks to allow it to recover. Monitor the bonsai carefully and water it regularly, allowing the soil to dry slightly between waterings. Avoid fertilizing the bonsai for at least a month after repotting.
 
 By following these steps, you can successfully repot your indoor bonsai and ensure its continued health and beauty.
+
+---
+
+### Recommended Products
+
+{{< product name="Classic Bonsai Pot" image="/images/bonsai-pot.jpg" description="A classic, durable pot for your bonsai." link="#" >}}

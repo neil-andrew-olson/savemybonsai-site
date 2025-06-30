@@ -186,3 +186,23 @@ form {
   text-decoration: none;
   border-radius: 0.25rem;
 }
+
+.product-recommendation {
+  @apply my-8 border rounded-lg p-4 text-center;
+}
+
+.product-recommendation img {
+  @apply mx-auto mb-4;
+}
+
+.product-recommendation h3 {
+  @apply text-xl font-bold;
+}
+
+.product-recommendation p {
+  @apply my-2;
+}
+
+.product-recommendation .btn {
+  @apply mt-4;
+}

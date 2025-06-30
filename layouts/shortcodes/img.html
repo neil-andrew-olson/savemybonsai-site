@@ -1,1 +1,24 @@
-<img src="{{ .Get "src" }}" alt="{{ .Get "alt" | default (.Get "src") }}" loading="lazy" {{ with .Get "class" }}class="{{ . }}"{{ end }} {{ with .Get "width" }}width="{{ . }}"{{ end }} {{ with .Get "height" }}height="{{ . }}"{{ end }}>
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+{{ $alt := .Get "alt" | default $src.Title }}
+{{ $loading := .Get "loading" | default "lazy" }}
+
+{{ if $src }}
+  {{ $tiny := $src.Resize "480x" }}
+  {{ $small := $src.Resize "768x" }}
+  {{ $medium := $src.Resize "1024x" }}
+  {{ $large := $src.Resize "1280x" }}
+
+  <img src="{{ $small.RelPermalink }}"
+       srcset="{{ $tiny.RelPermalink }} 480w,
+               {{ $small.RelPermalink }} 768w,
+               {{ $medium.RelPermalink }} 1024w,
+               {{ $large.RelPermalink }} 1280w"
+       sizes="(max-width: 768px) 100vw, 768px"
+       alt="{{ $alt }}"
+       loading="{{ $loading }}"
+       {{ with .Get "class" }}class="{{ . }}"{{ end }}
+       {{ with .Get "width" }}width="{{ . }}"{{ end }}
+       {{ with .Get "height" }}height="{{ . }}"{{ end }}>
+{{ else }}
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" loading="{{ $loading }}">
+{{ end }}
