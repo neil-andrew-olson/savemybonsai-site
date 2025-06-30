@@ -206,3 +206,24 @@ form {
 .product-recommendation .btn {
   @apply mt-4;
 }
+
+.hero {
+  @apply relative bg-cover bg-center text-white text-center py-20;
+  background-image: url('/images/hero-bonsai.jpg');
+}
+
+.hero-inner {
+  @apply relative z-10;
+}
+
+.hero-title {
+  @apply text-5xl font-bold;
+}
+
+.hero-subtitle {
+  @apply text-2xl mt-4;
+}
+
+.hero .btn {
+  @apply mt-8;
+}

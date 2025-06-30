@@ -45,6 +45,9 @@
   >
     {{- partial "header.html" . -}}
 
+    {{ if .IsHome }}
+      {{- partial "hero.html" . -}}
+    {{ end }}
     <a href="#main-content" class="skip-link sr-only focus:not-sr-only">Skip to main content</a>
     <main
       id="main-content"
