@@ -208,12 +208,12 @@ form {
 }
 
 .hero {
-  @apply relative bg-cover bg-center text-white text-center py-20;
-  background-image: url('/images/hero-bonsai.jpg');
+  @apply relative bg-cover bg-center text-white text-center py-20 flex items-center justify-center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/hero-bonsai.jpg');
 }
 
 .hero-inner {
-  @apply relative z-10;
+  @apply relative z-10 max-w-2xl;
 }
 
 .hero-title {
