@@ -41,11 +41,30 @@ Pruning is essential for maintaining the shape and health of your juniper bonsai
 *   **Structural Pruning:** Structural pruning involves removing larger branches to maintain the bonsai's overall shape and create a more balanced design. Prune older branches in the late winter or early spring, before new growth begins. Use sharp, sterilized pruning shears.
 *   **Remove dead or diseased branches:** Remove any dead or diseased branches as soon as you notice them. This will help to prevent the spread of disease and maintain the bonsai's health.
 
+**Temperature and Humidity:**
+
+Juniper bonsai prefer temperatures between 60-75°F (15-24°C) during the growing season. In winter, they can handle cooler temperatures but should be protected from frost.
+
+*   **Humidity:** Maintain 40-60% humidity. Mist the foliage regularly, especially in dry indoor environments, or place on a humidity tray.
+
+**Repotting:**
+
+Repot your juniper bonsai every 2-3 years in early spring before new growth begins.
+
+*   **Soil:** Use a well-draining bonsai soil mix, such as akadama, pumice, and lava rock.
+
+*   **Root pruning:** Trim about 1/3 of the roots to encourage new growth and prevent root binding.
+
 **Common Problems:**
 
-*   **Yellowing leaves:** Yellowing leaves can be a sign of overwatering, underwatering, nutrient deficiencies, or pest infestations.
-*   **Brown tips:** Brown tips can be a sign of dry air or salt buildup in the soil.
-*   **Spider mites:** Spider mites are a common pest that can infest juniper bonsai. Look for webbing on the leaves and stems.
-*   **Scale:** Scale insects are another common pest that can infest juniper bonsai. Look for small, brown, shell-like insects on the leaves and stems.
+*   **[Yellowing Leaves](/problems/yellow-leaves):** Can be caused by overwatering, underwatering, nutrient deficiencies, or pests.
+
+*   **Brown Tips:** Often due to low humidity or salt accumulation in soil. Flush soil periodically.
+
+*   **[Spider Mites](/problems/spider-mites):** Look for fine webs on foliage. Treat with insecticidal soap.
+
+*   **Scale Insects:** Appear as small bumps on stems and leaves. Remove manually or use horticultural oil.
+
+*   **[Root Rot](/problems/root-rot):** Caused by overwatering. Signs include soft, black roots and wilting.
 
 By following these care tips, you can ensure that your indoor juniper bonsai thrives and remains a beautiful addition to your home.
