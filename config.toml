@@ -44,9 +44,6 @@ paginate = 10
   url = "/bonsai/problems/"
   weight = 50
 
-[params.mainSections]
-  - "bonsai"
-  - "care-basics"
-  - "species"
+mainSections = ["bonsai", "care-basics", "species"]
 
 theme = "hugo-paper"
