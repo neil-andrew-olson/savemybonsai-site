@@ -1,0 +1,28 @@
+baseURL = "https://savemybonsai.com/"
+title   = "Save My Bonsai"
+languageCode = "en-us"
+paginate = 10
+[params]
+  color = "green"
+  description = "Fix every indoor bonsai problem—watering, pests, pruning & more."
+  rss = "https://savemybonsai.com/rss"
+  mastodon = "https://savemybonsai.com/mastodon"
+  threads = "https://savemybonsai.com/threads"
+  bluesky = "https://savemybonsai.com/bluesky"
+  linkedin = "https://savemybonsai.com/linkedin"
+  github = "https://savemybonsai.com/github"
+  instagram = "https://savemybonsai.com/instagram"
+  twitter = "https://savemybonsai.com/twitter"
+  mainSections = ["bonsai", "care-basics", "species"]
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepComments = false
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+
+theme = "hugo-paper"

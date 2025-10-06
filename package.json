@@ -1,0 +1,15 @@
+{
+  "name": "savemybonsai-site",
+  "version": "1.0.0",
+  "description": "Premium Bonsai Care Guide with Affiliate Monetization",
+  "private": true,
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./themes/hugo-paper/assets/app.css -o ./assets/main.css --yes",
+    "build": "npm run build:css && hugo --minify",
+    "serve": "npm run build:css && hugo server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.12"
+  }
+}
