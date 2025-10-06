@@ -14,6 +14,43 @@
   <!-- meta -->
   <meta name="theme-color" content="#faf8f1" />
 
+  <!-- DNS prefetch for external resources -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+  <!-- Additional meta tags for better SEO and social sharing -->
+  <meta property="og:title" content="{{- if not .IsHome -}}{{- .Title -}} - {{- end -}}{{- site.Title -}}">
+  <meta property="og:description" content="{{- if eq .Kind "page" -}}{{- .Summary -}}{{- else -}}{{- site.Params.description | default (print `Fix every indoor bonsai problem—watering, pests, pruning & more.`) -}}{{- end -}}">
+  <meta property="og:url" content="{{- .Permalink -}}">
+  <meta property="og:site_name" content="{{- site.Title -}}">
+  <meta property="og:type" content="{{- if .IsPage -}}article{{- else -}}website{{- end -}}">
+  {{- if .Params.images -}}
+  <meta property="og:image" content="{{- index .Params.images 0 | absURL -}}">
+  {{- else -}}
+  <meta property="og:image" content="{{- site.Params.logo | default "/images/logo.svg" | absURL -}}">
+  {{- end -}}
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": {{- if .IsHome -}}"WebSite"{{- else -}}"WebPage"{{- end -}},
+    "name": "{{- site.Title -}}",
+    "description": "{{- site.Params.description | default "Fix every indoor bonsai problem—watering, pests, pruning & more." -}}",
+    "url": "{{- .Permalink -}}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{- site.Title -}}",
+      "logo": "{{- site.Params.logo | default "/images/logo.svg" | absURL -}}"
+    }
+    {{- if .IsPage -}},
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{- .Permalink -}}"
+    }
+    {{- end -}}
+  }
+  </script>
+
   <!-- author -->
   {{- $site_author := or site.Author.name site.Params.name site.Title -}}
   <!---->
@@ -84,6 +121,9 @@
     rel="apple-touch-icon"
     href="{{- site.Params.appleTouchIcon | default `apple-touch-icon.png` | absURL -}}"
   />
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="{{- `site.webmanifest` | absURL -}}" />
 
   <!-- generator -->
   {{- hugo.Generator -}}

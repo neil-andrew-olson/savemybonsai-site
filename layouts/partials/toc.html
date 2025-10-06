@@ -1,0 +1,30 @@
+<!-- Table of Contents -->
+{{ if .IsPage }}
+  {{ $headers := findRE "<h[2-6][^>]*>.*?</h[2-6]>" .Content }}
+  {{ if $headers }}
+    <aside class="toc-sidebar fixed right-8 top-32 w-64 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg max-h-[calc(100vh-12rem)] overflow-y-auto hidden lg:block border border-gray-200 dark:border-gray-700">
+      <h3 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white border-b pb-2">Table of Contents</h3>
+      <nav>
+        <ol class="space-y-2 text-sm">
+          {{ range $headers }}
+            {{ $header := . }}
+            {{ $id := $header | replaceRE `.*id="([^"]*)".*` "$1" | default "" }}
+            {{ $level := $header | replaceRE `.*<h([2-6]).*` "$1" | default "2" }}
+            {{ $text := $header | replaceRE `<[^>]*>` "" | plainify }}
+            {{ $indent := 0 }}
+            {{ $marginClass := "" }}
+            {{ if eq $level "3" }}{{ $marginClass = "ml-3" }}{{ end }}
+            {{ if eq $level "4" }}{{ $marginClass = "ml-6" }}{{ end }}
+            {{ if eq $level "5" }}{{ $marginClass = "ml-9" }}{{ end }}
+            {{ if eq $level "6" }}{{ $marginClass = "ml-12" }}{{ end }}
+            <li class="toc-item {{ $marginClass }}">
+              <a href="#{{ $id }}" class="toc-link block py-1 px-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors" onclick="smoothScroll(event, '{{ $id }}')">
+                {{ $text }}
+              </a>
+            </li>
+          {{ end }}
+        </ol>
+      </nav>
+    </aside>
+  {{ end }}
+{{ end }}

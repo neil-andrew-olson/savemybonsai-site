@@ -67,6 +67,64 @@
     btnDark.addEventListener('click', () => {
       setDark(localStorage.getItem('dark') !== 'true');
     });
+
+    // register service worker for PWA
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js')
+          .then(function(registration) {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          })
+          .catch(function(error) {
+            console.log('ServiceWorker registration failed: ', error);
+          });
+      });
+    }
+
+    // Smooth scrolling for TOC
+    window.smoothScroll = function(event, targetId) {
+      event.preventDefault();
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+        // Update URL without triggering a page reload
+        if (window.history.replaceState) {
+          window.history.replaceState(null, null, '#' + targetId);
+        }
+      }
+    };
+
+    // Intersection observer for TOC highlighting
+    const observerOptions = {
+      root: null,
+      rootMargin: '-80px 0px -80px 0px',
+      threshold: 0
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const id = entry.target.getAttribute('id');
+        const tocLink = document.querySelector(`a[href="#${id}"]`);
+        if (tocLink) {
+          if (entry.isIntersecting) {
+            tocLink.classList.add('toc-active');
+          } else {
+            tocLink.classList.remove('toc-active');
+          }
+        }
+      });
+    }, observerOptions);
+
+    // Observe all headings with IDs
+    window.addEventListener('DOMContentLoaded', function() {
+      const headings = document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+      headings.forEach(heading => {
+        observer.observe(heading);
+      });
+    });
   </script>
 
   <div

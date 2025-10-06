@@ -227,3 +227,192 @@ form {
 .hero .btn {
   @apply mt-8;
 }
+
+/* Print Styles */
+@media print {
+  body {
+    @apply text-black bg-white;
+  }
+
+  .btn, .btn-menu, .btn-dark, .search-form, nav {
+    display: none !important;
+  }
+
+  .skip-link {
+    display: none !important;
+  }
+
+  .breadcrumb {
+    @apply text-black text-sm mb-4;
+  }
+
+  article h1, article h2, article h3, article h4, article h5, article h6 {
+    @apply text-black font-bold;
+    break-after: avoid;
+  }
+
+  article p, article li {
+    break-inside: avoid;
+  }
+
+  article img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .product-recommendation {
+    break-inside: avoid;
+  }
+}
+
+/* Improved accessibility for high contrast */
+@media (prefers-contrast: high) {
+  .hero {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+
+  .hero-title, .hero-subtitle {
+    color: #fff !important;
+  }
+
+  .btn {
+    @apply border-2 border-white;
+  }
+}
+
+/* Focus indicators for better keyboard navigation */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-green-600 dark:outline-green-400;
+}
+
+/* Better touch targets for mobile */
+@media (max-width: 768px) {
+  .btn-menu {
+    min-width: 48px;
+    min-height: 48px;
+  }
+
+  button, .btn, input[type="submit"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Enhanced link styles */
+.link {
+  @apply transition-all duration-200 underline decoration-green-500 underline-offset-2;
+}
+
+/* Premium Hero Styles */
+.premium-hero {
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.premium-cta-primary {
+  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.3);
+}
+
+.premium-cta-primary:hover {
+  box-shadow: 0 15px 40px rgba(34, 197, 94, 0.4);
+}
+
+.premium-3d-card {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.premium-3d-card:hover {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15), 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Premium animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Premium gradient backgrounds */
+.premium-gradient-text {
+  background: linear-gradient(135deg, #22c55e, #16a34a, #15803d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Parallax effect for premium sections */
+@media (min-width: 768px) {
+  .premium-hero {
+    perspective: 1000px;
+  }
+
+  .premium-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    transform: translateZ(-1px) scale(1.1);
+    z-index: -1;
+  }
+}
+
+/* Premium mobile optimizations */
+@media (max-width: 768px) {
+  .premium-hero {
+    background-attachment: scroll;
+    min-height: calc(100vh - 4rem);
+  }
+
+  .hero-title {
+    font-size: 3rem !important;
+    line-height: 1.1 !important;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem !important;
+  }
+}
+
+/* Table of Contents Styles */
+.toc-sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.toc-sidebar::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-700 rounded;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+}
+
+.toc-link {
+  position: relative;
+}
+
+.toc-link.toc-active {
+  @apply bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300;
+}
+
+.toc-link.toc-active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  @apply bg-green-600;
+}
