@@ -47,8 +47,11 @@
     {{- partial "header.html" . -}}
 
     {{ if .IsHome }}
-      {{- partial "hero.html" . -}}
+      {{- partial "premium-hero.html" . -}}
     {{ end }}
+
+    {{- partial "breadcrumb.html" . -}}
+
     <main
       id="main-content"
       role="main"
@@ -56,6 +59,8 @@
     >
       {{- block "main" . -}}{{- end -}}
     </main>
+
+    {{- partial "toc.html" . -}}
 
     {{- partial "footer.html" . -}}
   </body>

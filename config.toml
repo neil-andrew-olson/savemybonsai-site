@@ -13,6 +13,7 @@ paginate = 10
   github = "https://example.com/github"
   instagram = "https://example.com/instagram"
   twitter = "https://example.com/twitter"
+  mainSections = ["bonsai", "care-basics", "species"]
 
 [[menu.main]]
   identifier = "home"
@@ -43,7 +44,5 @@ paginate = 10
   name = "Bonsai Problems"
   url = "/bonsai/problems/"
   weight = 50
-
-mainSections = ["bonsai", "care-basics", "species"]
 
 theme = "hugo-paper"

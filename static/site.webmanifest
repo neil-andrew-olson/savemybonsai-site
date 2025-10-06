@@ -1,0 +1,53 @@
+{
+  "name": "Save My Bonsai",
+  "short_name": "SMB",
+  "description": "Indoor bonsai care troubleshooting and guidance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f1",
+  "theme_color": "#059669",
+  "orientation": "portrait-primary",
+  "categories": ["lifestyle", "education"],
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/favicon.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/static/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Bonsai Problems",
+      "short_name": "Problems",
+      "description": "Common bonsai problems and solutions",
+      "url": "/bonsai/problems/",
+      "icons": [{ "src": "/images/logo.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Species Guide",
+      "short_name": "Species",
+      "description": "Bonsai tree species care guides",
+      "url": "/species/",
+      "icons": [{ "src": "/images/logo.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Care Basics",
+      "short_name": "Care",
+      "description": "Basic bonsai care instructions",
+      "url": "/care-basics/",
+      "icons": [{ "src": "/images/logo.svg", "sizes": "96x96" }]
+    }
+  ]
+}
