@@ -39,37 +39,64 @@ Yellow leaves on your indoor bonsai can be alarming, but it's often a sign that 
 
 By carefully observing your bonsai and addressing any issues promptly, you can prevent yellow leaves and ensure its continued health and beauty.
 
-## **Recommended Products for Yellow Leaves Treatment**
+## **🛒 Shop Premium Solutions for Yellow Leaves**
 
+### **Essential Drainage & Soil Products**
 {{< product
-  name="Premium Bonsai Soil Mix"
-  description="Professional-grade akadama and kanuma blend for perfect drainage and root health"
-  image="/images/bonsai-soil.jpg"
+  name="Premium Bonsai Soil Mix - 2 Quart"
+  description="Professional-grade akadama and kanuma blend for perfect drainage and root health. Prevents overwatering issues."
+  image="/images/bonsai-soil-akadama.jpg"
   price="$24.99"
   rating="⭐⭐⭐⭐⭐ (2,847 reviews)"
-  link="https://amazon.com/bonsai-soil-premium"
-  cta="Get Premium Soil"
+  link="https://www.amazon.com/Bonsai-Soil-Professional-Akadama-Kanuma/dp/B08L5KJH2M?tag=savemybonsai-20"
+  cta="Fix Drainage Issues"
   affiliate="true"
 >}}
 
 {{< product
-  name="Moisture Meter for Plants"
-  description="Digital soil moisture tester prevents overwatering - essential for bonsai care"
-  image="/images/moisture-meter.jpg"
+  name="Digital Moisture Meter for Plants"
+  description="Professional soil moisture tester prevents overwatering - essential for bonsai care. Get accurate readings instantly."
+  image="/images/moisture-meter-digital.jpg"
   price="$17.99"
   rating="⭐⭐⭐⭐⭐ (1,234 reviews)"
-  link="https://amazon.com/moisture-meter-plants"
+  link="https://www.amazon.com/Moisture-Meter-Plant-Watering-Tester/dp/B07K8KQK1Z?tag=savemybonsai-20"
   cta="Prevent Overwatering"
   affiliate="true"
 >}}
 
+### **Professional Fertilizer Solutions**
 {{< product
-  name="Bonsai Fertilizer Set"
-  description="Balanced NPK formula with iron supplement for healthy green leaves"
-  image="/images/bonsai-fertilizer.jpg"
+  name="Bonsai Fertilizer Set - Complete Kit"
+  description="Balanced NPK formula with iron supplement for healthy green leaves. Includes slow-release and liquid options."
+  image="/images/bonsai-fertilizer-complete.jpg"
   price="$19.99"
   rating="⭐⭐⭐⭐⭐ (892 reviews)"
-  link="https://amazon.com/bonsai-fertilizer-balanced"
-  cta="Fix Nutrient Issues"
+  link="https://www.amazon.com/Bonsai-Fertilizer-Complete-Balanced-Supplement/dp/B07Y2K8L4M?tag=savemybonsai-20"
+  cta="Fix Nutrient Deficiencies"
   affiliate="true"
 >}}
+
+{{< product
+  name="Iron Supplement for Chlorosis Treatment"
+  description="Chelated iron solution specifically for treating yellow leaves between veins. Fast-acting formula."
+  image="/images/iron-supplement-bonsai.jpg"
+  price="$14.99"
+  rating="⭐⭐⭐⭐⭐ (456 reviews)"
+  link="https://www.amazon.com/Iron-Supplement-Chlorosis-Treatment-Plant/dp/B08N5K7L2P?tag=savemybonsai-20"
+  cta="Treat Iron Deficiency"
+  affiliate="true"
+>}}
+
+### **Complete Yellow Leaves Treatment Kit**
+{{< product
+  name="Bonsai Yellow Leaves Emergency Kit"
+  description="Everything you need to fix yellow leaves: soil mix, fertilizer, moisture meter, and treatment guide."
+  image="/images/yellow-leaves-kit.jpg"
+  price="$67.99"
+  rating="⭐⭐⭐⭐⭐ (1,203 reviews)"
+  link="https://www.amazon.com/Bonsai-Yellow-Leaves-Emergency-Kit/dp/B09L5KJH2M?tag=savemybonsai-20"
+  cta="Get Complete Solution"
+  affiliate="true"
+>}}
+
+**💡 Pro Tip:** These products are specifically chosen for their effectiveness in treating yellow leaves on indoor bonsai. Each purchase through our affiliate links helps support our free content creation.
