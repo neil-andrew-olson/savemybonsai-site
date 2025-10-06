@@ -3,9 +3,7 @@ title: "Premium Bonsai Care Guide - Expert Indoor Bonsai Solutions"
 description: "Master indoor bonsai care with expert-tested guides, troubleshooting tips, and proven techniques backed by horticultural science."
 ---
 
-{{< rawhtml >}}
 <div id="bonsai-problems" class="mt-16"></div>
-{{< /rawhtml >}}
 
 ## 🔍 Fix Your Bonsai Today
 
@@ -31,9 +29,7 @@ Most indoor bonsai struggles can be solved in 24 hours with the right knowledge.
 
 [Full Pest Control Guide →](/bonsai/problems/)
 
-{{< rawhtml >}}
 <div id="care-guide" class="mt-16"></div>
-{{< /rawhtml >}}
 
 ---
 

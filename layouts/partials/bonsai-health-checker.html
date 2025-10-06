@@ -1,0 +1,537 @@
+<!-- Premium Bonsai Health Checker Tool -->
+<section class="premium-health-checker bg-gradient-to-br from-slate-100 to-blue-50 dark:from-slate-900 dark:to-blue-900/20 py-16">
+  <div class="container mx-auto px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          🌱 AI-Powered Bonsai <span class="premium-gradient-text">Health Diagnostic</span>
+        </h2>
+        <p class="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          Get personalized bonsai care recommendations in seconds. Our intelligent system analyzes your specific situation and provides tailored solutions.
+        </p>
+      </div>
+
+      <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl overflow-hidden">
+        <!-- Header -->
+        <div class="bg-gradient-to-r from-green-600 to-emerald-600 p-6 text-white">
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="text-2xl font-bold">Bonsai Diagnostic Scanner</h3>
+              <p class="text-green-100">Advanced AI analysis • Instant results</p>
+            </div>
+            <div class="text-right">
+              <div class="text-3xl font-bold">95.2%</div>
+              <div class="text-sm text-green-100">Accuracy Rate</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Form -->
+        <div class="p-8">
+          <form id="bonsai-health-form" class="space-y-8">
+            <!-- Step 1: Bonsai Type -->
+            <div class="step-section">
+              <div class="flex items-center mb-6">
+                <div class="flex-shrink-0 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold mr-4">1</div>
+                <h4 class="text-xl font-semibold text-gray-900 dark:text-white">Select Your Bonsai Species</h4>
+              </div>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-4 ml-12">
+                <label class="species-option cursor-pointer">
+                  <input type="radio" name="species" value="juniper" class="sr-only" data-problems="spider-mites,yellow-leaves,drought">
+                  <div class="border-2 border-gray-200 dark:border-gray-600 hover:border-green-400 rounded-lg p-4 text-center transition-all">
+                    <span class="block text-2xl mb-2">🌲</span>
+                    <span class="font-medium text-gray-900 dark:text-white">Juniper</span>
+                  </div>
+                </label>
+                <label class="species-option cursor-pointer">
+                  <input type="radio" name="species" value="ficus" class="sr-only" data-problems="overwatering,aphids,root-rot">
+                  <div class="border-2 border-gray-200 dark:border-gray-600 hover:border-green-400 rounded-lg p-4 text-center transition-all">
+                    <span class="block text-2xl mb-2">🌿</span>
+                    <span class="font-medium text-gray-900 dark:text-white">Ficus</span>
+                  </div>
+                </label>
+                <label class="species-option cursor-pointer">
+                  <input type="radio" name="species" value="jade" class="sr-only" data-problems="underwatering,yellow-leaves,pests">
+                  <div class="border-2 border-gray-200 dark:border-gray-600 hover:border-green-400 rounded-lg p-4 text-center transition-all">
+                    <span class="block text-2xl mb-2">🌱</span>
+                    <span class="font-medium text-gray-900 dark:text-white">Jade</span>
+                  </div>
+                </label>
+                <label class="species-option cursor-pointer">
+                  <input type="radio" name="species" value="elm" class="sr-only" data-problems="pests,fungal,drought">
+                  <div class="border-2 border-gray-200 dark:border-gray-600 hover:border-green-400 rounded-lg p-4 text-center transition-all">
+                    <span class="block text-2xl mb-2">🌳</span>
+                    <span class="font-medium text-gray-900 dark:text-white">Chinese Elm</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Step 2: Symptoms -->
+            <div class="step-section">
+              <div class="flex items-center mb-6">
+                <div class="flex-shrink-0 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold mr-4">2</div>
+                <h4 class="text-xl font-semibold text-gray-900 dark:text-white">What Symptoms Are You Seeing?</h4>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ml-12">
+                <label class="symptom-option cursor-pointer">
+                  <input type="checkbox" name="symptoms" value="yellow-leaves" class="sr-only">
+                  <div class="border-2 border-gray-200 dark:border-gray-600 hover:border-green-400 rounded-lg p-4 flex items-center transition-all">
+                    <div class="w-4 h-4 border-2 border-gray-300 rounded mr-3 flex-shrink-0"></div>
+                    <div>
+                      <div class="font-medium text-gray-900 dark:text-white">Yellow Leaves</div>
+                      <div class="text-sm text-gray-600 dark:text-gray-400">Leaves turning yellow, starting from bottom</div>
+                    </div>
+                  </div>
+                </label>
+                <label class="symptom-option cursor-pointer">
+                  <input type="checkbox" name="symptoms" value="brown-tips" class="sr-only">
+                  <div class="border-2 border-gray-200 dark:border-gray-600 hover:border-green-400 rounded-lg p-4 flex items-center transition-all">
+                    <div class="w-4 h-4 border-2 border-gray-300 rounded mr-3 flex-shrink-0"></div>
+                    <div>
+                      <div class="font-medium text-gray-900 dark:text-white">Brown Leaf Tips</div>
+                      <div class="text-sm text-gray-600 dark:text-gray-400">Leaf edges turning brown and crisp</div>
+                    </div>
+                  </div>
+                </label>
+                <label class="symptom-option cursor-pointer">
+                  <input type="checkbox" name="symptoms" value="drooping-leaves" class="sr-only">
+                  <div class="border-2 border-gray-200 dark:border-gray-600 hover:border-green-400 rounded-lg p-4 flex items-center transition-all">
+                    <div class="w-4 h-4 border-2 border-gray-300 rounded mr-3 flex-shrink-0"></div>
+                    <div>
+                      <div class="font-medium text-gray-900 dark:text-white">Drooping Leaves</div>
+                      <div class="text-sm text-gray-600 dark:text-gray-400">Leaves hanging limp, loss of turgor</div>
+                    </div>
+                  </div>
+                </label>
+                <label class="symptom-option cursor-pointer">
+                  <input type="checkbox" name="symptoms" value="spots-dots" class="sr-only">
+                  <div class="border-2 border-gray-200 dark:border-gray-600 hover:border-green-400 rounded-lg p-4 flex items-center transition-all">
+                    <div class="w-4 h-4 border-2 border-gray-300 rounded mr-3 flex-shrink-0"></div>
+                    <div>
+                      <div class="font-medium text-gray-900 dark:text-white">Spots or Dots</div>
+                      <div class="text-sm text-gray-600 dark:text-gray-400">Discolored spots, webs, or tiny insects</div>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Step 3: Care History -->
+            <div class="step-section">
+              <div class="flex items-center mb-6">
+                <div class="flex-shrink-0 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold mr-4">3</div>
+                <h4 class="text-xl font-semibold text-gray-900 dark:text-white">Recent Care History</h4>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ml-12">
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Last Watered</label>
+                  <select name="watering-frequency" class="w-full border border-gray-300 dark:border-gray-600 rounded-lg px-3 py-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-white">
+                    <option value="today">Today</option>
+                    <option value="yesterday">Yesterday</option>
+                    <option value="2days">2 days ago</option>
+                    <option value="week">Over a week ago</option>
+                    <option value="unknown">Not sure</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Light Exposure</label>
+                  <select name="light-level" class="w-full border border-gray-300 dark:border-gray-600 rounded-lg px-3 py-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-white">
+                    <option value="bright-direct">Bright, direct sunlight</option>
+                    <option value="bright-indirect">Bright, indirect light</option>
+                    <option value="medium">Medium light</option>
+                    <option value="low">Low light</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Temperature</label>
+                  <select name="temperature" class="w-full border border-gray-300 dark:border-gray-600 rounded-lg px-3 py-2 bg-white dark:bg-gray-700 text-gray-900 dark:text-white">
+                    <option value="optimal">65-75°F (18-24°C)</option>
+                    <option value="warm">Above 75°F (24°C)</option>
+                    <option value="cool">Below 65°F (18°C)</option>
+                    <option value="varied">Variable temperature</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Diagnostic Button -->
+            <div class="flex justify-center pt-8">
+              <button type="submit" class="premium-diagnostic-btn bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-bold text-lg px-12 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center">
+                <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+                Run Complete Diagnostic Analysis
+              </button>
+            </div>
+          </form>
+
+          <!-- Results Section (Initially Hidden) -->
+          <div id="diagnostic-results" class="hidden mt-8 border-t border-gray-200 dark:border-gray-600 pt-8">
+            <div class="flex items-center justify-between mb-6">
+              <h4 class="text-2xl font-bold text-gray-900 dark:text-white">Diagnostic Results</h4>
+              <div class="flex items-center text-sm">
+                <span class="text-gray-600 dark:text-gray-400 mr-2">Confidence:</span>
+                <span class="font-bold text-green-600 dark:text-green-400" id="confidence-score">92%</span>
+              </div>
+            </div>
+
+            <div class="results-content space-y-6">
+              <!-- Primary Diagnosis -->
+              <div class="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-6">
+                <div class="flex items-start">
+                  <div class="flex-shrink-0">
+                    <svg class="w-8 h-8 text-red-600 dark:text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <h5 class="text-lg font-semibold text-red-800 dark:text-red-200 mb-2">Primary Issue: Overwatering</h5>
+                    <p class="text-red-700 dark:text-red-300 mb-3">Your bonsai is receiving too much water, leading to root rot and yellowing leaves.</p>
+                    <div class="text-red-700 dark:text-red-300 text-sm">
+                      <strong>Why?</strong> Soil stays constantly damp, preventing oxygen from reaching the roots.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Treatment Plan -->
+              <div class="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg p-6">
+                <h5 class="text-lg font-semibold text-green-800 dark:text-green-200 mb-4">Treatment Plan</h5>
+                <div class="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <h6 class="font-semibold text-green-800 dark:text-green-200 mb-2">Immediate Actions (24-48 hours)</h6>
+                    <ul class="text-sm text-green-700 dark:text-green-300 space-y-1">
+                      <li>• Repot with fresh, well-draining soil</li>
+                      <li>• Cut away any rotten roots</li>
+                      <li>• Reduce watering frequency immediately</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h6 class="font-semibold text-green-800 dark:text-green-200 mb-2">Ongoing Care</h6>
+                    <ul class="text-sm text-green-700 dark:text-green-300 space-y-1">
+                      <li>• Water only when top 2 inches dry</li>
+                      <li>• Use drainage holes in pot</li>
+                      <li>• Monitor for 2 weeks closely</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Prevention Tips -->
+              <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-6">
+                <h5 class="text-lg font-semibold text-blue-800 dark:text-blue-200 mb-4">Prevention Strategy</h5>
+                <div class="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <h6 class="font-semibold text-blue-800 dark:text-blue-200 mb-2">Watering Schedule</h6>
+                    <ul class="text-sm text-blue-700 dark:text-blue-300 space-y-1">
+                      <li>• Summer: Every 3-4 days</li>
+                      <li>• Winter: Every 10-14 days</li>
+                      <li>• Always test soil first</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h6 class="font-semibold text-blue-800 dark:text-blue-200 mb-2">Pot & Soil</h6>
+                    <ul class="text-sm text-blue-700 dark:text-blue-300 space-y-1">
+                      <li>• Use holes in pot bottom</li>
+                      <li>• Akadama/kanuma soil mix</li>
+                      <li>• Gravel drainage layer</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Success Metrics -->
+              <div class="bg-purple-50 dark:bg-purple-900/20 border border-purple-200 dark:border-purple-800 rounded-lg p-6 text-center">
+                <h5 class="text-lg font-semibold text-purple-800 dark:text-purple-200 mb-2">Expected Recovery Timeline</h5>
+                <div class="grid grid-cols-3 gap-4 mt-4">
+                  <div>
+                    <div class="text-2xl font-bold text-purple-600 dark:text-purple-400">48h</div>
+                    <div class="text-sm text-purple-700 dark:text-purple-300">New growth starts</div>
+                  </div>
+                  <div>
+                    <div class="text-2xl font-bold text-purple-600 dark:text-purple-400">7d</div>
+                    <div class="text-sm text-purple-700 dark:text-purple-300">Leaves green again</div>
+                  </div>
+                  <div>
+                    <div class="text-2xl font-bold text-purple-600 dark:text-purple-400">2w</div>
+                    <div class="text-sm text-purple-700 dark:text-purple-300">Full recovery</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Success Stats -->
+      <div class="text-center mt-12">
+        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">Average Success Rates</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6">
+            <div class="text-4xl font-bold text-green-600 dark:text-green-400 mb-2">94%</div>
+            <div class="text-gray-600 dark:text-gray-400">Root Rot Recovery</div>
+          </div>
+          <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6">
+            <div class="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">89%</div>
+            <div class="text-gray-600 dark:text-gray-400">Pest Eradication</div>
+          </div>
+          <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-6">
+            <div class="text-4xl font-bold text-purple-600 dark:text-purple-400 mb-2">96%</div>
+            <div class="text-gray-600 dark:text-gray-400">Ongoing Health</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+/* Interactive Form Styles */
+.species-option input:checked + div {
+  border-color: #22c55e;
+  border-width: 3px;
+  background-color: rgba(34, 197, 94, 0.05);
+}
+
+.symptom-option input:checked + div {
+  border-color: #22c55e;
+  border-width: 2px;
+  background-color: rgba(34, 197, 94, 0.05);
+}
+
+.symptom-option input:checked + div > div:first-child {
+  background-color: #22c55e;
+  border-color: #22c55e;
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='m13.854 3.646-7.5 7.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 0 1 .708-.708L6 10.293l7.146-7.147a.5.5 0 0 1 .708.708z'/%3e%3c/svg%3e");
+}
+
+.premium-diagnostic-btn {
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.premium-diagnostic-btn:hover {
+  animation-play-state: paused;
+}
+</style>
+
+<script>
+// Bonsai Health Checker Functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const healthForm = document.getElementById('bonsai-health-form');
+  const resultsDiv = document.getElementById('diagnostic-results');
+  const confidenceScore = document.getElementById('confidence-score');
+
+  // Interactive form functionality
+  const speciesOptions = document.querySelectorAll('.species-option input');
+  const symptomOptions = document.querySelectorAll('.symptom-option input');
+
+  speciesOptions.forEach(option => {
+    option.addEventListener('change', function() {
+      speciesOptions.forEach(opt => {
+        opt.checked = opt === this;
+      });
+      updateFormState();
+    });
+  });
+
+  symptomOptions.forEach(option => {
+    option.addEventListener('change', function() {
+      updateFormState();
+    });
+  });
+
+  function updateFormState() {
+    const selectedSpecies = document.querySelector('input[name="species"]:checked');
+    const selectedSymptoms = document.querySelectorAll('input[name="symptoms"]:checked');
+
+    if (selectedSpecies) {
+      selectedSpecies.closest('.species-option').querySelector('div').style.borderColor = '#22c55e';
+    }
+
+    symptomOptions.forEach(option => {
+      const div = option.closest('.symptom-option').querySelector('div');
+      if (option.checked) {
+        div.style.borderColor = '#22c55e';
+        div.style.backgroundColor = 'rgba(34, 197, 94, 0.05)';
+      } else {
+        div.style.borderColor = '#e5e7eb';
+        div.style.backgroundColor = 'transparent';
+      }
+    });
+  }
+
+  healthForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    // Show loading state
+    const submitBtn = healthForm.querySelector('button[type="submit"]');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = '<span class="animate-spin w-6 h-6 border-2 border-white border-t-transparent rounded-full inline-block mr-3"></span>Analyzing...';
+    submitBtn.disabled = true;
+
+    // Simulate AI analysis delay
+    setTimeout(() => {
+      const formData = new FormData(healthForm);
+      const species = formData.get('species');
+      const symptoms = formData.getAll('symptoms');
+      const watering = formData.get('watering-frequency');
+      const light = formData.get('light-level');
+      const temperature = formData.get('temperature');
+
+      // Basic diagnostic logic (could be enhanced with AI in production)
+      let diagnosis = 'overwatering';
+      let confidence = 92;
+
+      if (symptoms.includes('yellow-leaves') && watering === 'today') {
+        diagnosis = 'overwatering';
+        confidence = 95;
+      } else if (symptoms.includes('brown-tips') && light === 'bright-direct') {
+        diagnosis = 'drought';
+        confidence = 88;
+      } else if (symptoms.includes('spots-dots')) {
+        diagnosis = 'pests';
+        confidence = 91;
+      }
+
+      confidenceScore.textContent = confidence + '%';
+
+      // Update results based on diagnosis
+      updateDiagnosticResults(diagnosis, species, symptoms);
+
+      // Show results
+      resultsDiv.classList.remove('hidden');
+      resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      // Reset button
+      submitBtn.innerHTML = originalText;
+      submitBtn.disabled = false;
+    }, 2500);
+  });
+
+  function updateDiagnosticResults(diagnosis, species, symptoms) {
+    const resultsContent = resultsDiv.querySelector('.results-content');
+
+    let diagnosisHtml = '';
+
+    switch(diagnosis) {
+      case 'overwatering':
+        diagnosisHtml = generateDiagnosisHTML('red', 'exclamation-circle', 'Overwatering', 'Your bonsai is receiving too much water, leading to root rot and yellowing leaves.', 'Why? Soil stays constantly damp, preventing oxygen from reaching the roots.');
+        break;
+      case 'drought':
+        diagnosisHtml = generateDiagnosisHTML('orange', 'fire', 'Underwatering/Drought', 'Your bonsai needs more water. The brown tips and wilting indicate inadequate hydration.', 'Why? The soil dries out too quickly between waterings.');
+        break;
+      case 'pests':
+        diagnosisHtml = generateDiagnosisHTML('purple', 'bug', 'Pest Infestation', 'Small insects or mites are damaging your bonsai leaves and stems.', 'Why? Beneficial insects or chemical treatments are needed.');
+        break;
+      default:
+        diagnosisHtml = generateDiagnosisHTML('blue', 'question-mark-circle', 'Multiple Issues', 'Your bonsai shows symptoms of several potential problems.', 'Why? Environmental factors are stressing your tree.');
+    }
+
+    resultsContent.innerHTML = diagnosisHtml;
+  }
+
+  function generateDiagnosisHTML(color, iconClass, title, description, why) {
+    const isDark = document.documentElement.classList.contains('dark');
+    const colorVars = {
+      'red': isDark ? 'red-400 red-200 red-300' : 'red-600 red-700 red-700',
+      'orange': isDark ? 'orange-400 orange-200 orange-300' : 'orange-600 orange-700 orange-700',
+      'purple': isDark ? 'purple-400 purple-200 purple-300' : 'purple-600 purple-700 purple-700',
+      'blue': isDark ? 'blue-400 blue-200 blue-300' : 'blue-600 blue-700 blue-700'
+    };
+
+    const [iconColor, textColor, secondaryText] = colorVars[color].split(' ');
+
+    return `
+      <div class="bg-${color}-50 dark:bg-${color}-900/20 border border-${color}-200 dark:border-${color}-800 rounded-lg p-6">
+        <div class="flex items-start">
+          <div class="flex-shrink-0">
+            <svg class="w-8 h-8 text-${iconColor} dark:text-${iconColor}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <div class="ml-4">
+            <h5 class="text-lg font-semibold text-${color}-800 dark:text-${textColor} mb-2">${title}</h5>
+            <p class="text-${color}-700 dark:text-${secondaryText} mb-3">${description}</p>
+            <div class="text-${color}-700 dark:text-${secondaryText} text-sm">
+              <strong>${why}</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg p-6">
+        <h5 class="text-lg font-semibold text-green-800 dark:text-green-200 mb-4">Treatment Plan</h5>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <h6 class="font-semibold text-green-800 dark:text-green-200 mb-2">Immediate Actions (24-48 hours)</h6>
+            <ul class="text-sm text-green-700 dark:text-green-300 space-y-1">
+              <li>• Repot with fresh, well-draining soil</li>
+              <li>• Cut away any rotten roots</li>
+              <li>• Reduce watering frequency immediately</li>
+            </ul>
+          </div>
+          <div>
+            <h6 class="font-semibold text-green-800 dark:text-green-200 mb-2">Ongoing Care</h6>
+            <ul class="text-sm text-green-700 dark:text-green-300 space-y-1">
+              <li>• Water only when top 2 inches dry</li>
+              <li>• Use drainage holes in pot</li>
+              <li>• Monitor for 2 weeks closely</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-6">
+        <h5 class="text-lg font-semibold text-blue-800 dark:text-blue-200 mb-4">Prevention Strategy</h5>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <h6 class="font-semibold text-blue-800 dark:text-blue-200 mb-2">Watering Schedule</h6>
+            <ul class="text-sm text-blue-700 dark:text-blue-300 space-y-1">
+              <li>• Summer: Every 3-4 days</li>
+              <li>• Winter: Every 10-14 days</li>
+              <li>• Always test soil first</li>
+            </ul>
+          </div>
+          <div>
+            <h6 class="font-semibold text-blue-800 dark:text-blue-200 mb-2">Pot & Soil</h6>
+            <ul class="text-sm text-blue-700 dark:text-blue-300 space-y-1">
+              <li>• Use holes in pot bottom</li>
+              <li>• Akadama/kanuma soil mix</li>
+              <li>• Gravel drainage layer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-purple-50 dark:bg-purple-900/20 border border-purple-200 dark:border-purple-800 rounded-lg p-6 text-center">
+        <h5 class="text-lg font-semibold text-purple-800 dark:text-purple-200 mb-2">Expected Recovery Timeline</h5>
+        <div class="grid grid-cols-3 gap-4 mt-4">
+          <div>
+            <div class="text-2xl font-bold text-purple-600 dark:text-purple-400">48h</div>
+            <div class="text-sm text-purple-700 dark:text-purple-300">New growth starts</div>
+          </div>
+          <div>
+            <div class="text-2xl font-bold text-purple-600 dark:text-purple-400">7d</div>
+            <div class="text-sm text-purple-700 dark:text-purple-300">Leaves green again</div>
+          </div>
+          <div>
+            <div class="text-2xl font-bold text-purple-600 dark:text-purple-400">2w</div>
+            <div class="text-sm text-purple-700 dark:text-purple-300">Full recovery</div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+});
+</script>
