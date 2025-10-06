@@ -88,6 +88,12 @@ Tailored guidance for 50+ popular bonsai species.
 
 [Get Started Now →](/care-basics/)
 
+## **🎓 Advanced Training Available**
+
+Ready to become a bonsai expert? Our comprehensive **[Bonsai Mastery Course](/courses/bonsai-mastery-course/)** provides 8 weeks of intensive training with certification, expert community access, and lifetime support.
+
+**Investment: $97** (Limited time offer - save $100!)
+
 ---
 
 *"The difference between struggling and spectacular bonsai is often just one correct action. Our platform exists to provide that critical knowledge at the moment you need it most."*

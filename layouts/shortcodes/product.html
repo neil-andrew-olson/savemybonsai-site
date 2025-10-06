@@ -4,5 +4,16 @@
     <h3>{{ .Get "name" }}</h3>
   </a>
   <p>{{ .Get "description" }}</p>
-  <a href="{{ .Get "link" }}" class="btn" target="_blank" rel="noopener noreferrer">Buy Now</a>
+  <div class="flex items-center justify-between mb-4">
+    <div class="text-2xl font-bold text-green-600 dark:text-green-400">{{ .Get "price" }}</div>
+    <div class="text-sm text-gray-500 dark:text-gray-400">{{ .Get "rating" }}</div>
+  </div>
+  <a href="{{ .Get "link" }}" class="btn w-full text-center" target="_blank" rel="noopener noreferrer">
+    {{ .Get "cta" | default "Buy Now" }}
+  </a>
+  {{ if .Get "affiliate" }}
+  <div class="text-xs text-gray-500 dark:text-gray-400 text-center mt-2">
+    *Affiliate link - helps support our free content
+  </div>
+  {{ end }}
 </div>

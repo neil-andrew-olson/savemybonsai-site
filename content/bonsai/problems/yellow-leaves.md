@@ -38,3 +38,38 @@ Yellow leaves on your indoor bonsai can be alarming, but it's often a sign that 
 *   **Flush the Soil:** To remove salt buildup, flush the soil with distilled water several times. Allow the water to drain out of the bottom of the pot. Repot the bonsai with fresh soil if the salt buildup is severe.
 
 By carefully observing your bonsai and addressing any issues promptly, you can prevent yellow leaves and ensure its continued health and beauty.
+
+## **Recommended Products for Yellow Leaves Treatment**
+
+{{< product
+  name="Premium Bonsai Soil Mix"
+  description="Professional-grade akadama and kanuma blend for perfect drainage and root health"
+  image="/images/bonsai-soil.jpg"
+  price="$24.99"
+  rating="⭐⭐⭐⭐⭐ (2,847 reviews)"
+  link="https://amazon.com/bonsai-soil-premium"
+  cta="Get Premium Soil"
+  affiliate="true"
+>}}
+
+{{< product
+  name="Moisture Meter for Plants"
+  description="Digital soil moisture tester prevents overwatering - essential for bonsai care"
+  image="/images/moisture-meter.jpg"
+  price="$17.99"
+  rating="⭐⭐⭐⭐⭐ (1,234 reviews)"
+  link="https://amazon.com/moisture-meter-plants"
+  cta="Prevent Overwatering"
+  affiliate="true"
+>}}
+
+{{< product
+  name="Bonsai Fertilizer Set"
+  description="Balanced NPK formula with iron supplement for healthy green leaves"
+  image="/images/bonsai-fertilizer.jpg"
+  price="$19.99"
+  rating="⭐⭐⭐⭐⭐ (892 reviews)"
+  link="https://amazon.com/bonsai-fertilizer-balanced"
+  cta="Fix Nutrient Issues"
+  affiliate="true"
+>}}
