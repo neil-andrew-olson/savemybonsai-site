@@ -5,7 +5,7 @@ description: "Learn how to care for a Jade bonsai, a succulent that is easy to c
 
 The Jade plant is a popular succulent that is often grown as a bonsai. It is a very low-maintenance plant that is great for beginners.
 
-{{< img src="jade-bonsai.jpg" alt="A Jade bonsai tree" >}}
+{{< img src="/images/hero-bonsai.jpg" alt="A Jade bonsai tree" >}}
 
 ### Light
 
@@ -25,4 +25,4 @@ Jade bonsai need a well-draining soil mix. A succulent or cactus mix is a good c
 
 Here is a product recommendation to help you care for your Jade bonsai:
 
-{{< product name="Succulent and Cactus Soil Mix" image="/images/succulent-soil.jpg" description="A well-draining soil mix that is perfect for Jade bonsai." link="#" >}}
+{{< product name="Succulent and Cactus Soil Mix" image="/images/hero-bonsai.jpg" description="A well-draining soil mix that is perfect for Jade bonsai." link="https://www.amazon.com/Succulent-Cactus-Soil-Porous-Drainage/dp/B07ZW9M6P8" affiliate="true" price="$18.99" rating="⭐⭐⭐⭐⭐ (1,456)" cta="Get Soil Mix" >}}

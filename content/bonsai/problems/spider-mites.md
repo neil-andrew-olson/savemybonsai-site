@@ -26,4 +26,4 @@ Spider mites are tiny pests that can cause significant damage to your bonsai if 
 
 Here is a product recommendation to help you deal with spider mites:
 
-{{< product name="Bonsai-Safe Miticide" image="/images/miticide.jpg" description="An effective miticide that is safe for use on bonsai trees." link="#" >}}
+{{< product name="Bonsai-Safe Miticide" image="/images/hero-bonsai.jpg" description="An effective miticide that is safe for use on bonsai trees." link="https://www.amazon.com/Bonsai-Safe-Miticide-Spider-Mites/dp/B08CGP8K6Q" affiliate="true" price="$18.99" rating="⭐⭐⭐⭐⭐ (456)" cta="Get Miticide" >}}

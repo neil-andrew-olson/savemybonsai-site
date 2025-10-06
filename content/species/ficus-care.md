@@ -3,7 +3,7 @@ title: "Indoor Ficus Bonsai Care for Beginners"
 description: "Learn how to care for a Ficus bonsai, a popular and easy-to-care-for indoor bonsai tree."
 ---
 
-{{< img src="ficus-bonsai.png" alt="Ficus Bonsai" >}}
+{{< img src="/images/hero-bonsai.jpg" alt="Ficus Bonsai" >}}
 
 Ficus bonsai are a popular choice for beginners due to their hardiness and ease of care. However, they still require specific care to thrive indoors. Understanding their needs and providing the right environment will ensure a healthy and beautiful bonsai.
 
@@ -69,4 +69,4 @@ By following these care tips, you can ensure that your indoor ficus bonsai thriv
 
 Here is a product recommendation to help you care for your Ficus bonsai:
 
-{{< product name="Humidity Tray" image="/images/humidity-tray.jpg" description="A humidity tray is a great way to increase the humidity around your bonsai." link="#" >}}
+{{< product name="Humidity Tray" image="/images/hero-bonsai.jpg" description="A humidity tray is a great way to increase the humidity around your bonsai." link="https://www.amazon.com/Humidity-Trays-Bonsai-Plants-Drainage/dp/B07ZJZ8ZGF" affiliate="true" price="$14.99" rating="⭐⭐⭐⭐⭐ (689)" cta="Get Humidity Tray" >}}

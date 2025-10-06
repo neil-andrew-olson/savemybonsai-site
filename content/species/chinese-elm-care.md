@@ -5,7 +5,7 @@ description: "Learn how to care for a Chinese Elm bonsai, a versatile and resili
 
 The Chinese Elm is a highly adaptable tree that is well-suited for bonsai cultivation. It is a great choice for beginners because it is tolerant of a wide range of conditions and is relatively easy to care for.
 
-{{< img src="chinese-elm-bonsai.jpg" alt="A Chinese Elm bonsai tree" >}}
+{{< img src="/images/hero-bonsai.jpg" alt="A Chinese Elm bonsai tree" >}}
 
 ### Light
 
@@ -25,4 +25,4 @@ Fertilize your Chinese Elm bonsai every two weeks during the growing season (spr
 
 Here is a product recommendation to help you care for your Chinese Elm bonsai:
 
-{{< product name="Balanced Bonsai Fertilizer" image="/images/bonsai-fertilizer.jpg" description="A balanced fertilizer that is perfect for Chinese Elm bonsai." link="#" >}}
+{{< product name="Balanced Bonsai Fertilizer" image="/images/hero-bonsai.jpg" description="A balanced fertilizer that is perfect for Chinese Elm bonsai." link="https://www.amazon.com/Bonsai-Fertilizer-Professional-Balanced-Supplement/dp/B08CGP8K6Q" affiliate="true" price="$16.99" rating="⭐⭐⭐⭐⭐ (892)" cta="Get Fertilizer" >}}

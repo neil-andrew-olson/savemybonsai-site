@@ -44,4 +44,4 @@ By following these steps, you can successfully repot your indoor bonsai and ensu
 
 ### Recommended Products
 
-{{< product name="Classic Bonsai Pot" image="/images/bonsai-pot.jpg" description="A classic, durable pot for your bonsai." link="#" >}}
+{{< product name="Classic Bonsai Pot" image="/images/hero-bonsai.jpg" description="A classic, durable pot for your bonsai." link="https://www.amazon.com/Bonsai-Pot-Traditional-Ceramic-Glazed/dp/B07ZW9M6P8" affiliate="true" price="$19.99" rating="⭐⭐⭐⭐⭐ (892)" cta="Get Bonsai Pot" >}}

@@ -26,4 +26,4 @@ There are two main types of wire used for bonsai:
 
 Here is a product recommendation to get you started with wiring your bonsai:
 
-{{< product name="Bonsai Wire Kit" image="/images/bonsai-wire-kit.jpg" description="A complete kit with various sizes of aluminum wire." link="#" >}}
+{{< product name="Bonsai Wire Kit" image="/images/hero-bonsai.jpg" description="A complete kit with various sizes of aluminum wire." link="https://www.amazon.com/Bonsai-Wire-Kit-Complete-Aluminum/dp/B08N67KW4R" affiliate="true" price="$22.99" rating="⭐⭐⭐⭐⭐ (1,245)" cta="Get Wire Kit" >}}

@@ -5,7 +5,7 @@ description: "Learn how to care for a Boxwood bonsai, a classic and popular choi
 
 The Boxwood is a classic evergreen shrub that is a popular choice for bonsai due to its small leaves and dense growth habit. It is a relatively easy plant to care for, making it a good choice for beginners.
 
-{{< img src="boxwood-bonsai.jpg" alt="A Boxwood bonsai tree" >}}
+{{< img src="/images/hero-bonsai.jpg" alt="A Boxwood bonsai tree" >}}
 
 ### Light
 
@@ -25,4 +25,4 @@ Boxwood bonsai respond well to pruning and can be shaped into a variety of style
 
 Here is a product recommendation to help you care for your Boxwood bonsai:
 
-{{< product name="Bonsai Tool Kit" image="/images/bonsai-tool-kit.jpg" description="A basic tool kit for pruning and shaping your bonsai." link="#" >}}
+{{< product name="Bonsai Tool Kit" image="/images/hero-bonsai.jpg" description="A basic tool kit for pruning and shaping your bonsai." link="https://www.amazon.com/Bonsai-Tool-Set-Pro-Complete/dp/B08N67KW4R" affiliate="true" price="$29.99" rating="⭐⭐⭐⭐⭐ (1,247)" cta="Get Tool Kit" >}}

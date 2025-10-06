@@ -5,7 +5,7 @@ description: "Learn how to care for a Carmona (Fukien Tea) bonsai, a beautiful f
 
 The Carmona or Fukien Tea is a beautiful flowering bonsai that is native to Southeast Asia. It is a popular choice for indoor bonsai because of its small, shiny leaves and delicate white flowers.
 
-{{< img src="carmona-bonsai.jpg" alt="A Carmona (Fukien Tea) bonsai tree" >}}
+{{< img src="/images/hero-bonsai.jpg" alt="A Carmona (Fukien Tea) bonsai tree" >}}
 
 ### Light
 
@@ -25,4 +25,4 @@ Fukien Tea bonsai appreciate high humidity. To increase the humidity around your
 
 Here is a product recommendation to help you care for your Fukien Tea bonsai:
 
-{{< product name="Humidity Tray" image="/images/humidity-tray.jpg" description="A humidity tray is a great way to increase the humidity around your bonsai." link="#" >}}
+{{< product name="Humidity Tray" image="/images/hero-bonsai.jpg" description="A humidity tray is a great way to increase the humidity around your bonsai." link="https://www.amazon.com/Humidity-Trays-Bonsai-Plants-Drainage/dp/B07ZJZ8ZGF" affiliate="true" price="$14.99" rating="⭐⭐⭐⭐⭐ (689)" cta="Get Humidity Tray" >}}

@@ -5,7 +5,7 @@ description: "Learn how to care for a Sageretia (Chinese Sweet Plum) bonsai, a b
 
 The Sageretia, or Chinese Sweet Plum, is a beautiful subtropical evergreen tree that is a popular choice for bonsai. It has small, dark green leaves, and it produces small white flowers that are followed by small, edible, purple fruits.
 
-{{< img src="sageretia-bonsai.jpg" alt="A Sageretia (Chinese Sweet Plum) bonsai tree" >}}
+{{< img src="/images/hero-bonsai.jpg" alt="A Sageretia (Chinese Sweet Plum) bonsai tree" >}}
 
 ### Light
 
@@ -25,4 +25,4 @@ Chinese Sweet Plum bonsai appreciate high humidity. To increase the humidity aro
 
 Here is a product recommendation to help you care for your Chinese Sweet Plum bonsai:
 
-{{< product name="Humidity Tray" image="/images/humidity-tray.jpg" description="A humidity tray is a great way to increase the humidity around your bonsai." link="#" >}}
+{{< product name="Humidity Tray" image="/images/hero-bonsai.jpg" description="A humidity tray is a great way to increase the humidity around your bonsai." link="https://www.amazon.com/Humidity-Trays-Bonsai-Plants-Drainage/dp/B07ZJZ8ZGF" affiliate="true" price="$14.99" rating="⭐⭐⭐⭐⭐ (689)" cta="Get Humidity Tray" >}}

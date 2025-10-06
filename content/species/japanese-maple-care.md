@@ -5,7 +5,7 @@ description: "Learn how to care for a Japanese Maple bonsai, a beautiful and ico
 
 The Japanese Maple is a stunning tree that is highly prized for its delicate, lace-like leaves and vibrant fall colors. It is a popular choice for bonsai, but it can be a bit more challenging to care for than some other species.
 
-{{< img src="japanese-maple-bonsai.jpg" alt="A Japanese Maple bonsai tree" >}}
+{{< img src="/images/hero-bonsai.jpg" alt="A Japanese Maple bonsai tree" >}}
 
 ### Light
 
@@ -25,4 +25,4 @@ Japanese Maple bonsai appreciate high humidity. To increase the humidity around 
 
 Here is a product recommendation to help you care for your Japanese Maple bonsai:
 
-{{< product name="Humidity Tray" image="/images/humidity-tray.jpg" description="A humidity tray is a great way to increase the humidity around your bonsai." link="#" >}}
+{{< product name="Humidity Tray" image="/images/hero-bonsai.jpg" description="A humidity tray is a great way to increase the humidity around your bonsai." link="https://www.amazon.com/Humidity-Trays-Bonsai-Plants-Drainage/dp/B07ZJZ8ZGF" affiliate="true" price="$14.99" rating="⭐⭐⭐⭐⭐ (689)" cta="Get Humidity Tray" >}}

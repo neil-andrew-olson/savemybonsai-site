@@ -1,5 +1,13 @@
+{{/* Get the base link */}}
+{{ $link := .Get "link" }}
+
+{{/* Automatically append affiliate tag if affiliate="true" and link is not internal */}}
+{{ if and (.Get "affiliate") (ne $link "#") (not (strings.HasPrefix $link "/")) }}
+  {{ $link = (print $link "?tag=savemybonsai-20") }}
+{{ end }}
+
 <div class="product-recommendation">
-  <a href="{{ .Get "link" }}" target="_blank" rel="noopener noreferrer">
+  <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
     <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" loading="lazy">
     <h3>{{ .Get "name" }}</h3>
   </a>
@@ -8,10 +16,10 @@
     <div class="text-2xl font-bold text-green-600 dark:text-green-400">{{ .Get "price" }}</div>
     <div class="text-sm text-gray-500 dark:text-gray-400">{{ .Get "rating" }}</div>
   </div>
-  <a href="{{ .Get "link" }}" class="btn w-full text-center" target="_blank" rel="noopener noreferrer">
+  <a href="{{ $link }}" class="btn w-full text-center" target="_blank" rel="noopener noreferrer">
     {{ .Get "cta" | default "Buy Now" }}
   </a>
-  {{ if .Get "affiliate" }}
+  {{ if and (.Get "affiliate") (ne (.Get "link") "#") }}
   <div class="text-xs text-gray-500 dark:text-gray-400 text-center mt-2">
     *Affiliate link - helps support our free content
   </div>
