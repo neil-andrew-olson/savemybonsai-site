@@ -25,4 +25,4 @@ Fertilize your Chinese Elm bonsai every two weeks during the growing season (spr
 
 Here is a product recommendation to help you care for your Chinese Elm bonsai:
 
-{{< product name="Balanced Bonsai Fertilizer" image="/images/hero-bonsai.jpg" description="A balanced fertilizer that is perfect for Chinese Elm bonsai." link="https://www.amazon.com/Bonsai-Fertilizer-Professional-Balanced-Supplement/dp/B08CGP8K6Q" affiliate="true" price="$16.99" rating="⭐⭐⭐⭐⭐ (892)" cta="Get Fertilizer" >}}
+{{< product name="Professional Balanced Bonsai Fertilizer | 3-1-2 Liquid Concentrate" image="/images/hero-bonsai.jpg" description="Multi-Purpose Concentrate for Bonsai Plants and Trees" link="https://www.amazon.com/Professional-Balanced-Bonsai-Fertilizer/dp/B07K8KQK1Z" affiliate="true" price="$15.49" rating="⭐⭐⭐⭐⭐ (31K)" cta="Get Fertilizer" >}}

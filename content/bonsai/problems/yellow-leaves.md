@@ -48,7 +48,7 @@ By carefully observing your bonsai and addressing any issues promptly, you can p
   image="/images/bonsai-soil-akadama.jpg"
   price="$24.99"
   rating="⭐⭐⭐⭐⭐ (2,847 reviews)"
-  link="https://www.amazon.com/Bonsai-Soil-Professional-Akadama-Kanuma/dp/B08L5KJH2M?tag=savemybonsai-20"
+  link="https://www.amazon.com/2-5lb-Hard-Akadama-Bonsai-Soil/dp/B08L5KJH2M?tag=savemybonsai-20"
   cta="Fix Drainage Issues"
   affiliate="true"
 >}}

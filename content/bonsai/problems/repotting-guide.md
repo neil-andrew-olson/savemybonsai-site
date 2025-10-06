@@ -40,7 +40,7 @@ Repotting is one of the most important aspects of bonsai care. It refreshes the 
   image="/images/bonsai-tool-set.jpg"
   price="$89.99"
   rating="⭐⭐⭐⭐⭐ (1,847 reviews)"
-  link="https://www.amazon.com/Professional-Bonsai-Tool-Set-Complete/dp/B07Y2K8L4M?tag=savemybonsai-20"
+  link="https://www.amazon.com/6-Piece-Bonsai-Tool-Set-Knob/dp/B07Y2K8L4M?tag=savemybonsai-20"
   cta="Get Professional Tools"
   affiliate="true"
 >}}

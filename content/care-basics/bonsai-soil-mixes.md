@@ -20,5 +20,5 @@ Here are some of the most common components used in bonsai soil mixes:
 
 Here are some recommended products to get you started with your own bonsai soil mix:
 
-{{< product name="Akadama" image="/images/hero-bonsai.jpg" description="Hard, Japanese baked clay for bonsai." link="https://www.amazon.com/Akadama-Bonsai-Soil-Professional-2-4mm/dp/B08CGP8K6Q" affiliate="true" price="$24.99" rating="⭐⭐⭐⭐⭐ (1,892)" cta="Get Akadama" >}}
-{{< product name="Pumice" image="/images/hero-bonsai.jpg" description="Improves drainage and aeration." link="https://www.amazon.com/Bonsai-Pumice-Soil-Professional-Grade/dp/B07ZW9M6P8" affiliate="true" price="$14.99" rating="⭐⭐⭐⭐⭐ (734)" cta="Get Pumice" >}}
+{{< product name="2.5lb Hard Akadama Bonsai Soil 1/8-1/4 inch Small Grain" image="/images/hero-bonsai.jpg" description="Premium Japanese Bonsai Soil Amendment for Cactus, Succulents, Bonsai Plants" link="https://www.amazon.com/2-5lb-Hard-Akadama-Bonsai-Soil/dp/B08L5KJH2M" affiliate="true" price="$12.99" rating="⭐⭐⭐⭐⭐ (643)" cta="Get Akadama" >}}
+{{< product name="Small Pumice for Plants Bonsai 2 Quarts Mini 1/8"" image="/images/hero-bonsai.jpg" description="Succulent Cactus Indoor Plants Horticultural Soil Amendment" link="https://www.amazon.com/Small-Pumice-Plants-Bonsai-Quarts/dp/B08N5K7L2P" affiliate="true" price="$14.89" rating="⭐⭐⭐⭐⭐ (30)" cta="Get Pumice" >}}

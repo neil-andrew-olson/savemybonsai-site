@@ -50,7 +50,7 @@ Aphids are one of the most common pests affecting indoor bonsai trees. These tin
   image="/images/ladybug-habitat.jpg"
   price="$19.99"
   rating="⭐⭐⭐⭐⭐ (1,345 reviews)"
-  link="https://www.amazon.com/Ladybug-Habitat-Aphid-Control-Bonsai/dp/B079LMKH8F?tag=savemybonsai-20"
+  link="https://www.amazon.com/Live-Ladybugs-Aphid-Control-Natural/dp/B07Y2K8L4M?tag=savemybonsai-20"
   cta="Buy Ladybugs"
   affiliate="true"
 >}}

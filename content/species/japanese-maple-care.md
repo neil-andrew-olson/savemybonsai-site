@@ -25,4 +25,4 @@ Japanese Maple bonsai appreciate high humidity. To increase the humidity around 
 
 Here is a product recommendation to help you care for your Japanese Maple bonsai:
 
-{{< product name="Humidity Tray" image="/images/hero-bonsai.jpg" description="A humidity tray is a great way to increase the humidity around your bonsai." link="https://www.amazon.com/Humidity-Trays-Bonsai-Plants-Drainage/dp/B07ZJZ8ZGF" affiliate="true" price="$14.99" rating="⭐⭐⭐⭐⭐ (689)" cta="Get Humidity Tray" >}}
+{{< product name="Tinyroots Bonsai Humidity Tray, 7-Inch Drip Tray" image="/images/hero-bonsai.jpg" description="Maintains Moisture for Plants and Helps Protect Furniture" link="https://www.amazon.com/Tinyroots-Bonsai-Humidity-Tray-7-Inch/dp/B07K8KQK1Z" affiliate="true" price="$9.99" rating="⭐⭐⭐⭐⭐ (401)" cta="Get Humidity Tray" >}}

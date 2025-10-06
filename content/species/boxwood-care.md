@@ -25,4 +25,4 @@ Boxwood bonsai respond well to pruning and can be shaped into a variety of style
 
 Here is a product recommendation to help you care for your Boxwood bonsai:
 
-{{< product name="Bonsai Tool Kit" image="/images/hero-bonsai.jpg" description="A basic tool kit for pruning and shaping your bonsai." link="https://www.amazon.com/Bonsai-Tool-Set-Pro-Complete/dp/B08N67KW4R" affiliate="true" price="$29.99" rating="⭐⭐⭐⭐⭐ (1,247)" cta="Get Tool Kit" >}}
+{{< product name="6-Piece Bonsai Tool Set" image="/images/hero-bonsai.jpg" description="Includes: Knob Cutter, Trunk Splitter, Concave Cutter, Wire Cutter, Jin Pliers, Bonsai Scissors" link="https://www.amazon.com/6-Piece-Bonsai-Tool-Set-Knob/dp/B07Y2K8L4M" affiliate="true" price="$79.97" rating="⭐⭐⭐⭐⭐ (673)" cta="Get Tool Kit" >}}
