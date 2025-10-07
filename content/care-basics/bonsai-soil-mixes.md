@@ -1,6 +1,6 @@
 ---
-title: "The Perfect Bonsai Soil Mix"
-description: "Learn how to create the perfect soil mix for your bonsai tree to ensure it thrives."
+title: The Perfect Bonsai Soil Mix
+description: Learn how to create the perfect soil mix for your bonsai tree to ensure it thrives.
 ---
 
 A good bonsai soil mix is crucial for the health of your tree. It needs to provide good drainage, aeration, and water retention. While you can buy pre-mixed bonsai soil, mixing your own allows you to customize it to the specific needs of your tree.
