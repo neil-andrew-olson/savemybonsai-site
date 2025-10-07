@@ -3,7 +3,11 @@
 
 {{/* Automatically append affiliate tag if affiliate="true" and link is not internal */}}
 {{ if and (.Get "affiliate") (ne $link "#") (not (strings.HasPrefix $link "/")) }}
-  {{ $link = (print $link "?tag=savemybonsai-20") }}
+  {{ if strings.Contains $link "?" }}
+    {{ $link = (print $link "&tag=savemybonsai-20") }}
+  {{ else }}
+    {{ $link = (print $link "?tag=savemybonsai-20") }}
+  {{ end }}
 {{ end }}
 
 <div class="product-recommendation">
