@@ -1,36 +1,99 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary-50: #f0fdf4;
-  --color-primary-100: #dcfce7;
-  --color-primary-200: #bbf7d0;
-  --color-primary-300: #86efac;
-  --color-primary-400: #4ade80;
-  --color-primary-500: #22c55e;
-  --color-primary-600: #16a34a;
-  --color-primary-700: #15803d;
-  --color-primary-800: #166534;
-  --color-primary-900: #14532d;
-  --color-primary-950: #052e16;
-  
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --font-serif: 'Merriweather', serif;
+  /* Premium Palette */
+  --color-bonsai-50: #f4f7f5;
+  --color-bonsai-100: #e3ebe6;
+  --color-bonsai-200: #c5d8cd;
+  --color-bonsai-300: #9bbba8;
+  --color-bonsai-400: #729a83;
+  --color-bonsai-500: #537e66;
+  --color-bonsai-600: #3f634f;
+  --color-bonsai-700: #334f40;
+  --color-bonsai-800: #2a3f34;
+  --color-bonsai-900: #23342c;
+  --color-bonsai-950: #111c17;
+
+  --color-gold-50: #fbf9eb;
+  --color-gold-100: #f5f0ce;
+  --color-gold-200: #ede09f;
+  --color-gold-300: #e3cc69;
+  --color-gold-400: #d9b63e;
+  --color-gold-500: #c69f26;
+  --color-gold-600: #a67e1b;
+  --color-gold-700: #856018;
+  --color-gold-800: #6e4d1a;
+  --color-gold-900: #5b3f1a;
+  --color-gold-950: #34220b;
+
+  --color-cream-50: #fdfcfb;
+  --color-cream-100: #fbfaf8;
+  --color-cream-200: #f5f2ed;
+  --color-cream-300: #ede8df;
+  --color-cream-400: #e2d8ca;
+  --color-cream-500: #d4c4b0;
+
+  /* Typography */
+  --font-sans: 'Montserrat', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  /* Animations */
+  --animate-fade-in-up: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @layer base {
   body {
-    @apply bg-stone-50 text-stone-900 antialiased;
+    @apply bg-cream-100 text-bonsai-900 antialiased font-sans;
   }
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-serif text-stone-800;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-bonsai-950 tracking-tight;
+  }
+
+  p {
+    @apply leading-relaxed text-bonsai-800/80;
   }
 }
 
 @layer components {
   .btn {
-    @apply inline-block px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg shadow-md hover:bg-primary-700 transition-colors duration-300;
+    @apply inline-flex items-center justify-center px-8 py-4 font-medium rounded-sm transition-all duration-300 uppercase tracking-widest text-xs;
   }
+
+  .btn-primary {
+    @apply bg-bonsai-900 text-white hover:bg-bonsai-800 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-gold {
+    @apply bg-gold-500 text-white hover:bg-gold-600 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-outline {
+    @apply border border-bonsai-900 text-bonsai-900 hover:bg-bonsai-900 hover:text-white;
+  }
+
   .container {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    @apply max-w-7xl mx-auto px-6 sm:px-8 lg:px-12;
+  }
+
+  .card-hover {
+    @apply transition-all duration-500 hover:-translate-y-1 hover:shadow-xl;
   }
 }

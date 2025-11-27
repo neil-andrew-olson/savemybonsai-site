@@ -1,34 +1,37 @@
-<header class="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-stone-200 shadow-sm">
-  <div class="container flex items-center justify-between h-16">
-    <a href="{{ " /" | relURL }}" class="flex items-center gap-2 group">
+<header
+  class="fixed w-full top-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-stone-100">
+  <div class="container flex items-center justify-between h-20">
+    <!-- Logo -->
+    <a href="/" class="group flex items-center gap-2">
       <span
-        class="text-2xl font-serif font-bold text-primary-800 group-hover:text-primary-600 transition-colors">SaveMyBonsai</span>
+        class="text-2xl font-serif font-bold text-bonsai-900 tracking-tighter group-hover:text-gold-600 transition-colors">
+        SaveMy<span class="text-gold-500">Bonsai</span>
+      </span>
     </a>
 
+    <!-- Desktop Navigation -->
     <nav class="hidden md:flex items-center gap-8">
       {{ range site.Menus.main }}
-      <a href="{{ .URL }}" class="text-sm font-medium text-stone-600 hover:text-primary-600 transition-colors">{{ .Name
-        }}</a>
+      <a href="{{ .URL }}"
+        class="text-sm font-medium uppercase tracking-widest text-bonsai-800 hover:text-gold-600 transition-colors relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[1px] after:bg-gold-500 after:transition-all hover:after:w-full">
+        {{ .Name }}
+      </a>
       {{ end }}
-      <a href="/care-basics" class="text-sm font-medium text-stone-600 hover:text-primary-600 transition-colors">Care
+      <a href="/care-basics"
+        class="text-sm font-medium uppercase tracking-widest text-bonsai-800 hover:text-gold-600 transition-colors relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[1px] after:bg-gold-500 after:transition-all hover:after:w-full">Care
         Basics</a>
-      <a href="/species" class="text-sm font-medium text-stone-600 hover:text-primary-600 transition-colors">Species
-        Guide</a>
+      <a href="/species"
+        class="text-sm font-medium uppercase tracking-widest text-bonsai-800 hover:text-gold-600 transition-colors relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[1px] after:bg-gold-500 after:transition-all hover:after:w-full">Species</a>
       <a href="/bonsai/problems"
-        class="text-sm font-medium text-stone-600 hover:text-primary-600 transition-colors">Troubleshooting</a>
+        class="text-sm font-medium uppercase tracking-widest text-bonsai-800 hover:text-gold-600 transition-colors relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-0 after:h-[1px] after:bg-gold-500 after:transition-all hover:after:w-full">Troubleshooting</a>
     </nav>
 
-    <div class="flex items-center gap-4">
-      <a href="/courses/bonsai-mastery-course"
-        class="hidden sm:inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-primary-600 rounded-full hover:bg-primary-700 transition-colors shadow-sm hover:shadow-md">
-        Mastery Course
-      </a>
-      <button class="md:hidden p-2 text-stone-600 hover:text-primary-600" aria-label="Menu">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-          class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
-      </button>
-    </div>
+    <!-- Mobile Menu Button -->
+    <button class="md:hidden text-bonsai-900 p-2" aria-label="Menu">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
   </div>
 </header>
+<div class="h-20"></div> <!-- Spacer -->
