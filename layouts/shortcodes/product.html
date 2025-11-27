@@ -12,41 +12,28 @@
 {{ end }}
 {{ end }}
 {{ end }}
+<h3 class="text-2xl font-serif font-bold text-bonsai-900 leading-tight">{{ .Get "name" }}</h3>
+<span class="text-xl font-bold text-gold-600 whitespace-nowrap ml-6 font-serif">{{ .Get "price" }}</span>
+</div>
 
-<div
-  class="my-12 bg-white border border-bonsai-100 shadow-lg hover:shadow-xl transition-all duration-500 flex flex-col md:flex-row overflow-hidden group">
-  <!-- Image Section -->
-  <div class="md:w-2/5 bg-cream-50 flex items-center justify-center p-8 relative overflow-hidden">
-    <div class="absolute inset-0 bg-white/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-    <img src="{{ .Get " image" }}" alt="{{ .Get " name" }}" loading="lazy"
-      class="max-h-56 object-contain mix-blend-multiply transform group-hover:scale-105 transition-transform duration-500 relative z-10">
-  </div>
+<div class="flex items-center gap-2 mb-4">
+  <div class="text-xs text-gold-500 tracking-widest uppercase font-bold">Editor's Choice</div>
+  <span class="text-bonsai-300">|</span>
+  <div class="text-xs text-bonsai-500">{{ .Get "rating" }}</div>
+</div>
 
-  <!-- Content Section -->
-  <div class="p-8 md:w-3/5 flex flex-col justify-center border-l border-bonsai-50">
-    <div class="flex items-start justify-between mb-4">
-      <h3 class="text-2xl font-serif font-bold text-bonsai-900 leading-tight">{{ .Get "name" }}</h3>
-      <span class="text-xl font-bold text-gold-600 whitespace-nowrap ml-6 font-serif">{{ .Get "price" }}</span>
-    </div>
+<p class="text-bonsai-600 text-sm leading-relaxed mb-8 flex-grow border-t border-bonsai-100 pt-4">{{ .Get
+  "description" }}</p>
 
-    <div class="flex items-center gap-2 mb-4">
-      <div class="text-xs text-gold-500 tracking-widest uppercase font-bold">Editor's Choice</div>
-      <span class="text-bonsai-300">|</span>
-      <div class="text-xs text-bonsai-500">{{ .Get "rating" }}</div>
-    </div>
-
-    <p class="text-bonsai-600 text-sm leading-relaxed mb-8 flex-grow border-t border-bonsai-100 pt-4">{{ .Get
-      "description" }}</p>
-
-    <div class="flex flex-col sm:flex-row gap-4 items-center mt-auto">
-      <a href="{{ $link }}" class="btn btn-primary w-full sm:w-auto text-xs" target="_blank" rel="noopener noreferrer">
-        {{ .Get "cta" | default "View on Amazon" }}
-      </a>
-      {{ if and (.Get "affiliate") (ne (.Get "link") "#") }}
-      <span class="text-[10px] text-bonsai-400 uppercase tracking-wider">
-        *Commission Earned
-      </span>
-      {{ end }}
-    </div>
-  </div>
+<div class="flex flex-col sm:flex-row gap-4 items-center mt-auto">
+  <a href="{{ $link }}" class="btn btn-primary w-full sm:w-auto text-xs" target="_blank" rel="noopener noreferrer">
+    {{ .Get "cta" | default "View on Amazon" }}
+  </a>
+  {{ if and (.Get "affiliate") (ne (.Get "link") "#") }}
+  <span class="text-[10px] text-bonsai-400 uppercase tracking-wider">
+    *Commission Earned
+  </span>
+  {{ end }}
+</div>
+</div>
 </div>
