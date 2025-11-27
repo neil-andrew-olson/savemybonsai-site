@@ -1,0 +1,140 @@
+{{ define "main" }}
+<section class="relative bg-stone-900 text-white overflow-hidden">
+    <div class="absolute inset-0">
+        <img src="/images/hero-bonsai.jpg" alt="Bonsai Tree" class="w-full h-full object-cover opacity-40">
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-transparent to-transparent"></div>
+    </div>
+    <div class="relative container py-24 md:py-32 lg:py-40 flex flex-col items-center text-center">
+        <h1 class="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 tracking-tight">
+            Master the Art of <span class="text-primary-400">Bonsai</span>
+        </h1>
+        <p class="text-lg md:text-xl text-stone-200 max-w-2xl mb-10 leading-relaxed">
+            Your premium guide to growing, shaping, and caring for miniature trees. Join a community of enthusiasts
+            cultivating patience and beauty.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/care-basics"
+                class="btn bg-primary-600 hover:bg-primary-500 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-primary-500/20 transition-all transform hover:-translate-y-1">
+                Start Learning
+            </a>
+            <a href="/species"
+                class="btn bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white border border-white/20 px-8 py-4 text-lg rounded-full transition-all">
+                Explore Species
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="py-20 bg-stone-50">
+    <div class="container">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-stone-900 mb-4">Everything You Need to Know</h2>
+            <p class="text-stone-600 max-w-2xl mx-auto">From your first tree to advanced wiring techniques, we have
+                comprehensive guides for every stage of your journey.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <a href="/care-basics"
+                class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 bg-white">
+                <div class="aspect-w-16 aspect-h-9 bg-stone-200 h-48 overflow-hidden">
+                    <!-- Placeholder for category image -->
+                    <div class="w-full h-full bg-primary-100 flex items-center justify-center text-primary-300">
+                        <svg class="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-bold text-stone-900 mb-2 group-hover:text-primary-600 transition-colors">
+                        Care Basics</h3>
+                    <p class="text-stone-600 text-sm">Watering, soil, placement, and the fundamentals of keeping your
+                        tree alive.</p>
+                </div>
+            </a>
+
+            <a href="/species"
+                class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 bg-white">
+                <div class="aspect-w-16 aspect-h-9 bg-stone-200 h-48 overflow-hidden">
+                    <div class="w-full h-full bg-stone-200 flex items-center justify-center text-stone-400">
+                        <svg class="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-bold text-stone-900 mb-2 group-hover:text-primary-600 transition-colors">
+                        Species Guide</h3>
+                    <p class="text-stone-600 text-sm">Specific care instructions for Juniper, Ficus, Maple, Pine, and
+                        more.</p>
+                </div>
+            </a>
+
+            <a href="/bonsai/problems"
+                class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 bg-white">
+                <div class="aspect-w-16 aspect-h-9 bg-stone-200 h-48 overflow-hidden">
+                    <div class="w-full h-full bg-amber-50 flex items-center justify-center text-amber-300">
+                        <svg class="w-16 h-16" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-bold text-stone-900 mb-2 group-hover:text-primary-600 transition-colors">
+                        Troubleshooting</h3>
+                    <p class="text-stone-600 text-sm">Diagnose and treat common pests, diseases, and growth issues.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="py-20 bg-white">
+    <div class="container">
+        <div class="flex items-center justify-between mb-12">
+            <h2 class="text-3xl font-serif font-bold text-stone-900">Latest Articles</h2>
+            <a href="/posts" class="text-primary-600 font-medium hover:text-primary-700 flex items-center gap-1">
+                View all <span aria-hidden="true">&rarr;</span>
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {{ range first 6 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+            <article class="flex flex-col group">
+                <a href="{{ .RelPermalink }}" class="block overflow-hidden rounded-xl mb-4">
+                    {{ with .Resources.GetMatch "cover.*" }}
+                    <img src="{{ .RelPermalink }}" alt="{{ $.Title }}"
+                        class="w-full h-64 object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    {{ else }}
+                    <div class="w-full h-64 bg-stone-100 flex items-center justify-center text-stone-300">
+                        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z">
+                            </path>
+                        </svg>
+                    </div>
+                    {{ end }}
+                </a>
+                <div class="flex-1">
+                    <div class="flex items-center gap-3 text-xs text-stone-500 mb-3">
+                        <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                        <span>&bull;</span>
+                        <span>{{ .ReadingTime }} min read</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-stone-900 mb-2 group-hover:text-primary-600 transition-colors">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h3>
+                    <p class="text-stone-600 text-sm line-clamp-3 mb-4">{{ .Summary | plainify | truncate 150 }}</p>
+                    <a href="{{ .RelPermalink }}" class="text-primary-600 text-sm font-medium hover:underline">Read
+                        Article</a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

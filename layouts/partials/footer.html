@@ -1,24 +1,52 @@
-<footer
-  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
->
-  <div class="mr-auto">
-    {{- if site.Copyright -}} {{- site.Copyright -}} {{- else -}} &copy; {{-
-    now.Year -}}
-    <a class="link" href="{{- `` | absURL -}}">{{- site.Title -}}</a>
-    {{- end -}}
- </div>
- <a class="link mx-6" href="{{ "disclaimer" | relURL }}">Disclaimer</a>
- <a class="link mx-6" href="{{ "privacy" | relURL }}">Privacy Policy</a>
- <a class="link mx-6" href="{{ "affiliates/affiliate-disclosure" | relURL }}">Affiliate Disclosure</a>
- <a class="link mx-6" href="{{ "contact" | relURL }}">Contact</a>
- <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
-    >powered by hugo️️</a
-  >️
-  <a
-    class="link"
-    href="https://github.com/nanxiaobei/hugo-paper"
-    rel="noopener"
-    target="_blank"
-    >hugo-paper</a
-  >
+<footer class="bg-stone-900 text-stone-400 py-12 border-t border-stone-800">
+  <div class="container grid grid-cols-1 md:grid-cols-4 gap-8">
+    <div class="col-span-1 md:col-span-1">
+      <span class="text-2xl font-serif font-bold text-stone-100 block mb-4">SaveMyBonsai</span>
+      <p class="text-sm leading-relaxed mb-4">
+        Your premium guide to the art of bonsai. We help you grow, maintain, and master the ancient art of miniature
+        trees.
+      </p>
+      <div class="flex gap-4">
+        {{ with site.Params.twitter }}<a href="{{ . }}" target="_blank" rel="noopener"
+          class="hover:text-primary-400 transition-colors">Twitter</a>{{ end }}
+        {{ with site.Params.instagram }}<a href="{{ . }}" target="_blank" rel="noopener"
+          class="hover:text-primary-400 transition-colors">Instagram</a>{{ end }}
+      </div>
+    </div>
+
+    <div>
+      <h3 class="text-stone-100 font-semibold mb-4">Explore</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/care-basics" class="hover:text-primary-400 transition-colors">Care Basics</a></li>
+        <li><a href="/species" class="hover:text-primary-400 transition-colors">Species Guide</a></li>
+        <li><a href="/bonsai/problems" class="hover:text-primary-400 transition-colors">Troubleshooting</a></li>
+        <li><a href="/courses" class="hover:text-primary-400 transition-colors">Courses</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-stone-100 font-semibold mb-4">Legal</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/privacy" class="hover:text-primary-400 transition-colors">Privacy Policy</a></li>
+        <li><a href="/disclaimer" class="hover:text-primary-400 transition-colors">Disclaimer</a></li>
+        <li><a href="/affiliates/affiliate-disclosure" class="hover:text-primary-400 transition-colors">Affiliate
+            Disclosure</a></li>
+        <li><a href="/contact" class="hover:text-primary-400 transition-colors">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-stone-100 font-semibold mb-4">Stay Updated</h3>
+      <p class="text-sm mb-4">Join our newsletter for weekly bonsai tips.</p>
+      <form class="flex flex-col gap-2">
+        <input type="email" placeholder="Enter your email"
+          class="bg-stone-800 border-stone-700 text-stone-100 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 text-sm">
+        <button type="submit"
+          class="bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition-colors text-sm font-medium">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="container mt-12 pt-8 border-t border-stone-800 text-center text-xs">
+    <p>&copy; {{ now.Year }} {{ site.Title }}. All rights reserved.</p>
+  </div>
 </footer>

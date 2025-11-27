@@ -1,0 +1,45 @@
+{{- $title := .Title -}}
+{{- if .IsHome -}}
+{{- $title = site.Title -}}
+{{- else -}}
+{{- $title = printf "%s | %s" .Title site.Title -}}
+{{- end -}}
+
+<meta name="description" content="{{ .Description | default site.Params.description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ .Description | default site.Params.description }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with .Resources.GetMatch "cover.*" }}
+<meta property="og:image" content="{{ .Permalink }}">
+{{ end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ .Description | default site.Params.description }}">
+{{ with .Resources.GetMatch "cover.*" }}
+<meta name="twitter:image" content="{{ .Permalink }}">
+{{ end }}
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ if .IsHome }}WebSite{{ else }}Article{{ end }}",
+  "headline": "{{ $title }}",
+  "description": "{{ .Description | default site.Params.description }}",
+  "url": "{{ .Permalink }}"
+  {{ if not .IsHome }}
+  ,"datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Person",
+    "name": "Save My Bonsai Team"
+  }
+  {{ end }}
+}
+</script>

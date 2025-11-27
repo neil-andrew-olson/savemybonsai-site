@@ -1,136 +1,67 @@
-{{- define "main" -}}
+{{ define "main" }}
+d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+</svg>
+<time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+</div>
+<span>&bull;</span>
+<div class="flex items-center gap-2">
+  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+  </svg>
+  <span>{{ .ReadingTime }} min read</span>
+</div>
+</div>
+</header>
 
-<article>
-  <header class="mb-14">
-    <h1 class="my-0! pb-2.5">{{- .Title -}}</h1>
+<div
+  class="prose prose-lg prose-stone max-w-none 
+        prose-headings:font-serif prose-headings:font-bold prose-headings:text-stone-900 
+        prose-a:text-primary-600 prose-a:no-underline hover:prose-a:underline
+        prose-img:rounded-xl prose-img:shadow-lg
+        prose-blockquote:border-l-primary-500 prose-blockquote:bg-stone-50 prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-lg">
+  {{ .Content }}
+</div>
 
-    {{- if ne .Type "page" -}}
-    <div class="text-xs antialiased opacity-60">
-      {{- if .Date -}}
-      <time>{{- .Date | time.Format ":date_medium" -}}</time>
-      {{- end -}}
-      {{- if .Lastmod -}}
-      <span class="mx-1">&middot;</span>
-      <time>Last updated: {{- .Lastmod | time.Format ":date_medium" -}}</time>
-      {{- end -}}<!---->
-      {{- $single_author := or .Params.Author site.Author.name -}}
-      <!---->
-      {{- if $single_author -}}
-      <span class="mx-1">&middot;</span>
-      <span>{{- $single_author -}}</span>
-      {{- end -}}
-    </div>
-    {{- end -}}
-  </header>
-
-  <section>{{- .Content -}}</section>
-
-  <!-- Post Tags -->
-  {{- if .Params.tags -}}
-  <footer class="mt-12 flex flex-wrap">
-    {{- range .Params.tags -}} {{- $href := print (absURL "tags/") (urlize .)
-    -}}
-    <a
-      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
-      href="{{- $href -}}"
-      >{{- . -}}</a
-    >
-    {{- end -}}
-  </footer>
-  {{- end -}}
-
-  <!-- Post Nav -->
-  {{- if not site.Params.disablePostNavigation -}}<!---->
-  {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}<!---->
-  {{- if and (gt (len $pages) 1) (in $pages . ) -}}
-  <nav
-    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
-  >
-    {{- with $pages.Next . -}}
-    <a class="ltr:pr-3 rtl:pl-3" href="{{- .Permalink -}}"
-      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>{{- .Name -}}</span></a
-    >
-    {{- end -}}<!---->
-    {{- with $pages.Prev . -}}
-    <a
-      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
-      href="{{- .Permalink -}}"
-      ><span>{{- .Name -}}</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
-    >
-    {{- end -}}
-  </nav>
-  {{- end -}}<!---->
-  {{- end -}}
-
-  <!-- Disqus -->
-  {{- if and site.Config.Services.Disqus.Shortname (not (eq .Params.comments
-  false)) -}}
-  <div class="mt-24" id="disqus_thread"></div>
-  <script>
-    const disqusShortname = '{{- site.Config.Services.Disqus.Shortname -}}';
-    const script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
-    document.head.appendChild(script);
-  </script>
-  {{- end -}}
-
-  <!-- GraphComment -->
-  {{- if and site.Params.graphCommentId (not (eq .Params.comments false)) -}}
-  <div class="mt-24" id="graphcomment"></div>
-  <script type="text/javascript">
-    var __semio__params = {
-      graphcommentId: '{{- site.Params.graphCommentId  -}}',
-      behaviour: {
-        //  uid: "...",
-      },
-      // configure your variables here
-    };
-
-    function __semio__onload() {
-      __semio__gc_graphlogin(__semio__params);
-    }
-
-    (function () {
-      var gc = document.createElement('script');
-      gc.type = 'text/javascript';
-      gc.async = true;
-      gc.onload = __semio__onload;
-      gc.defer = true;
-      gc.src =
-        'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-      (
-        document.getElementsByTagName('head')[0] ||
-        document.getElementsByTagName('body')[0]
-      ).appendChild(gc);
-    })();
-  </script>
-  {{- end -}}
-
-  <!-- mermaid -->
-  {{- partial "mermaid.html" . -}}
-
-  <!-- giscus comment -->
-  {{- if and site.Params.giscus.repo (not (eq .Params.comments false)) -}}
-  <div class="giscus mt-24"></div>
-  <script
-    src="https://giscus.app/client.js"
-    data-repo="{{- site.Params.giscus.repo -}}"
-    data-repo-id="{{- site.Params.giscus.repoId -}}"
-    data-category="{{- site.Params.giscus.category -}}"
-    data-category-id="{{- site.Params.giscus.categoryId -}}"
-    data-mapping="{{- site.Params.giscus.mapping | default (print `pathname`) -}}"
-    data-strict="{{- site.Params.giscus.strict | default (print `1`) -}}"
-    data-reactions-enabled="{{- site.Params.giscus.reactionsEnabled | default (print `0`) -}}"
-    data-emit-metadata="{{- site.Params.giscus.emitMetadata | default (print `0`) -}}"
-    data-input-position="{{- site.Params.giscus.inputPosition | default (print `top`) -}}"
-    data-theme="{{- site.Params.giscus.theme | default (print `light`) -}}"
-    data-lang="{{- site.Params.giscus.lang | default (print `en`) -}}"
-    data-loading="{{- site.Params.giscus.loading | default (print `lazy`) -}}"
-    crossorigin="anonymous"
-    async
-  ></script>
-  {{- end -}}
+<div class="mt-12 pt-8 border-t border-stone-200">
+  <h3 class="text-lg font-bold text-stone-900 mb-4">Share this article</h3>
+  <!-- Social Share Buttons Placeholder -->
+  <div class="flex gap-2">
+    <button
+      class="bg-blue-500 text-white px-4 py-2 rounded text-sm font-medium hover:bg-blue-600 transition-colors">Facebook</button>
+    <button
+      class="bg-sky-400 text-white px-4 py-2 rounded text-sm font-medium hover:bg-sky-500 transition-colors">Twitter</button>
+    <button
+      class="bg-red-500 text-white px-4 py-2 rounded text-sm font-medium hover:bg-red-600 transition-colors">Pinterest</button>
+  </div>
+</div>
 </article>
 
-{{- end -}}
+<!-- Sidebar -->
+<aside class="lg:col-span-4 space-y-8">
+  <!-- Table of Contents -->
+  {{ if .TableOfContents }}
+  <div class="bg-stone-50 rounded-xl p-6 border border-stone-100 sticky top-24">
+    <h3 class="text-lg font-serif font-bold text-stone-900 mb-4">Table of Contents</h3>
+    <nav id="TableOfContents" class="text-sm text-stone-600 space-y-2">
+      {{ .TableOfContents }}
+    </nav>
+  </div>
+  {{ end }}
+
+  <!-- Featured Product / Affiliate -->
+  <div class="bg-primary-50 rounded-xl p-6 border border-primary-100">
+    <h3 class="text-lg font-serif font-bold text-primary-900 mb-2">Start Your Journey</h3>
+    <p class="text-sm text-primary-800 mb-4">Get the best tools for your bonsai.</p>
+    <a href="https://www.amazon.com/s?k=bonsai+tools&tag={{ site.Params.affiliate.amazon }}" target="_blank"
+      rel="noopener"
+      class="block w-full bg-primary-600 text-white text-center py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors">
+      Shop Bonsai Tools
+    </a>
+    <p class="text-xs text-primary-600/70 text-center mt-2">*Affiliate link</p>
+  </div>
+</aside>
+
+</div>
+</div>
+{{ end }}

@@ -16,6 +16,9 @@ languageCode = "en-us"
   twitter = "https://savemybonsai.com/twitter"
   mainSections = ["bonsai", "care-basics", "species"]
 
+[params.affiliate]
+  amazon = "savemybonsai-20"
+
 [minify]
   [minify.tdewolff]
     [minify.tdewolff.html]
@@ -26,4 +29,4 @@ languageCode = "en-us"
   name = "Home"
   url = "/"
 
-theme = "hugo-paper"
+

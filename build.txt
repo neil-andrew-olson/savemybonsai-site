@@ -1,0 +1,12 @@
+Start building sites … 
+hugo v0.151.0-c70ab27ceb841fc9404eab5d2c985ff7595034b7+extended windows/amd64 BuildDate=2025-10-02T13:30:36Z VendorInfo=gohugoio
+
+WARN  Raw HTML omitted while rendering "C:/Users/neil/Desktop/AIprojects/savemybonsai-site/content/courses/bonsai-mastery-course.md"; see https://gohugo.io/getting-started/configuration-markup/#rendererunsafe
+You can suppress this warning by adding the following to your site configuration:
+ignoreLogs = ['warning-goldmark-raw-html']
+ERROR render of "C:/Users/neil/Desktop/AIprojects/savemybonsai-site/content/care-basics/bonsai-wiring-basics.md" failed: "C:\Users\neil\Desktop\AIprojects\savemybonsai-site\layouts\_default\single.html:9:19": execute of template failed: template: single.html:9:19: executing "main" at <first 1 .Params.categories>: error calling first: both limit and seq must be provided
+ERROR render of "C:/Users/neil/Desktop/AIprojects/savemybonsai-site/content/species/japanese-maple-care.md" failed: "C:\Users\neil\Desktop\AIprojects\savemybonsai-site\layouts\_default\single.html:9:19": execute of template failed: template: single.html:9:19: executing "main" at <first 1 .Params.categories>: error calling first: both limit and seq must be provided
+ERROR render of "C:/Users/neil/Desktop/AIprojects/savemybonsai-site/content/bonsai/problems/spider-mites.md" failed: "C:\Users\neil\Desktop\AIprojects\savemybonsai-site\layouts\_default\single.html:9:19": execute of template failed: template: single.html:9:19: executing "main" at <first 1 .Params.categories>: error calling first: both limit and seq must be provided
+ERROR render of "C:/Users/neil/Desktop/AIprojects/savemybonsai-site/content/species/sageretia-care.md" failed: "C:\Users\neil\Desktop\AIprojects\savemybonsai-site\layouts\_default\single.html:9:19": execute of template failed: template: single.html:9:19: executing "main" at <first 1 .Params.categories>: error calling first: both limit and seq must be provided
+Total in 39 ms
+Error: error building site: render: failed to render pages: render of "C:/Users/neil/Desktop/AIprojects/savemybonsai-site/content/bonsai/problems/soil-too-wet.md" failed: "C:\Users\neil\Desktop\AIprojects\savemybonsai-site\layouts\_default\single.html:9:19": execute of template failed: template: single.html:9:19: executing "main" at <first 1 .Params.categories>: error calling first: both limit and seq must be provided

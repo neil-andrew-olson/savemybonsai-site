@@ -4,12 +4,14 @@
   "description": "Premium Bonsai Care Guide with Affiliate Monetization",
   "private": true,
   "scripts": {
-    "build:css": "npx @tailwindcss/cli -i ./themes/hugo-paper/assets/app.css -o ./assets/main.css --yes",
+    "build:css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./static/css/style.css --minify",
     "build": "npm run build:css && hugo --minify",
     "serve": "npm run build:css && hugo server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tailwindcss": "^4.1.17"
+  },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.0.12"
+    "@tailwindcss/cli": "^4.1.17"
   }
 }
