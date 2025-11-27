@@ -4,10 +4,12 @@
 {{/* Automatically append affiliate tag if affiliate="true" and link is not internal */}}
 {{ if and (.Get "affiliate") (ne $link "#") (not (strings.HasPrefix $link "/")) }}
 {{ $tag := site.Params.affiliate.amazon | default "savemybonsai-20" }}
+{{ if not (strings.Contains $link "tag=") }}
 {{ if strings.Contains $link "?" }}
 {{ $link = (print $link "&tag=" $tag) }}
 {{ else }}
 {{ $link = (print $link "?tag=" $tag) }}
+{{ end }}
 {{ end }}
 {{ end }}
 
