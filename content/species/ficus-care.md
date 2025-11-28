@@ -1,5 +1,6 @@
 ---
 title: "Indoor Ficus Bonsai Care for Beginners"
+image: "/images/species-guide.png"
 description: "Learn how to care for a Ficus bonsai, a popular and easy-to-care-for indoor bonsai tree."
 ---
 

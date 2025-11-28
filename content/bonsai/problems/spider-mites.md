@@ -1,5 +1,6 @@
 ---
 title: "Dealing with Spider Mites on Your Bonsai"
+image: "/images/troubleshooting.png"
 description: "Learn how to identify and eliminate spider mites, a common pest that can damage your bonsai tree."
 ---
 

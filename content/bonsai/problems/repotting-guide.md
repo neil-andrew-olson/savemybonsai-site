@@ -1,3 +1,12 @@
+---
+title: "Complete Bonsai Repotting Guide - Step by Step"
+description: "Master the art of bonsai repotting with our comprehensive guide. Learn when, how, and why to repot your indoor bonsai for optimal health."
+image: "/images/care-basics.png"
+---
+
+{{< img src="repotting-bonsai.png" alt="Bonsai Repotting Process" >}}
+
+
 # Complete Bonsai Repotting Guide
 
 Repotting is one of the most important aspects of bonsai care. It refreshes the soil, allows root pruning, and ensures your bonsai has the nutrients and drainage it needs to thrive.

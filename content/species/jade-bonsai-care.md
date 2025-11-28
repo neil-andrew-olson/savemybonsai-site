@@ -1,5 +1,6 @@
 ---
 title: "Jade Bonsai Care for Beginners"
+image: "/images/species-guide.png"
 description: "Learn how to care for a Jade bonsai, a succulent that is easy to care for and great for beginners."
 ---
 

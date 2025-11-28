@@ -1,10 +1,66 @@
-<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-</h3>
-<p class="text-stone-600 text-sm line-clamp-3 mb-4">{{ .Summary | plainify | truncate 150 }}</p>
-<a href="{{ .RelPermalink }}" class="text-primary-600 text-sm font-medium hover:underline">Read Article</a>
-</div>
-</article>
-{{ end }}
-</div>
+{{ define "main" }}
+<div class="bg-cream-50 min-h-screen py-20">
+    <div class="container mx-auto px-4">
+        <!-- Header -->
+        <div class="text-center mb-16">
+            <span class="text-gold-600 font-bold tracking-widest uppercase text-sm mb-3 block">Collection</span>
+            <h1 class="text-4xl md:text-6xl font-serif text-bonsai-900 mb-6">{{ .Title }}</h1>
+            <div class="w-24 h-1 bg-gold-500 mx-auto"></div>
+            {{ with .Content }}
+            <div class="mt-8 max-w-2xl mx-auto text-bonsai-600 prose prose-bonsai">
+                {{ . }}
+            </div>
+            {{ end }}
+        </div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            {{ range .Paginator.Pages }}
+            <article
+                class="bg-white rounded-sm shadow-lg overflow-hidden group hover:shadow-2xl transition-all duration-500 border border-stone-100">
+                <!-- Image -->
+                <a href="{{ .RelPermalink }}" class="block h-64 overflow-hidden relative">
+                    {{ if .Params.image }}
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}"
+                        class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
+                    {{ else }}
+                    <div class="w-full h-full bg-bonsai-100 flex items-center justify-center text-bonsai-300">
+                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z">
+                            </path>
+                        </svg>
+                    </div>
+                    {{ end }}
+                    <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-300">
+                    </div>
+                </a>
+
+                <!-- Content -->
+                <div class="p-8">
+                    <div class="mb-4 flex items-center gap-2 text-xs font-bold tracking-widest text-gold-600 uppercase">
+                        {{ range first 1 .Params.categories }}
+                        <span>{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    <h2
+                        class="text-2xl font-serif text-bonsai-900 mb-3 leading-tight group-hover:text-gold-600 transition-colors">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h2>
+                    <p class="text-bonsai-600 text-sm leading-relaxed line-clamp-3 mb-6">
+                        {{ .Summary | plainify | truncate 150 }}
+                    </p>
+                    <a href="{{ .RelPermalink }}"
+                        class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-bonsai-900 hover:text-gold-600 transition-colors group/link">
+                        Read Article <span class="group-hover/link:translate-x-1 transition-transform">&rarr;</span>
+                    </a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+
+        <!-- Pagination -->
+        {{ template "_internal/pagination.html" . }}
+    </div>
 </div>
 {{ end }}

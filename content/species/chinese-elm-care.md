@@ -1,3 +1,13 @@
+---
+title: "Chinese Elm Bonsai Care for Beginners"
+description: "Learn how to care for a Chinese Elm bonsai, a versatile and resilient bonsai tree."
+image: "/images/species-guide.png"
+---
+
+The Chinese Elm is a highly adaptable tree that is well-suited for bonsai cultivation. It is a great choice for beginners because it is tolerant of a wide range of conditions and is relatively easy to care for.
+
+{{< img src="/images/hero-bonsai.jpg" alt="A Chinese Elm bonsai tree" >}}
+
 ### Light
 
 Chinese Elm bonsai can be grown indoors or outdoors. If grown indoors, they need a bright, sunny location. If grown outdoors, they can be placed in full sun or partial shade.

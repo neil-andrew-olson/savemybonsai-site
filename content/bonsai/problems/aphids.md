@@ -1,5 +1,6 @@
 ---
 title: "How to Eliminate Aphids on Bonsai Trees - Complete Treatment Guide"
+image: "/images/bonsai-aphids.jpg"
 description: "Learn how to identify and treat aphid infestations on your indoor bonsai trees. Expert methods for prevention and control."
 ---
 

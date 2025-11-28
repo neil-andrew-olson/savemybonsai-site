@@ -1,5 +1,6 @@
 ---
 title: "Sageretia (Chinese Sweet Plum) Bonsai Care"
+image: "/images/species-guide.png"
 description: "Learn how to care for a Sageretia (Chinese Sweet Plum) bonsai, a beautiful flowering and fruiting bonsai."
 ---
 

@@ -1,3 +1,13 @@
+---
+title: "Bonsai Wiring Basics: A Beginner's Guide"
+description: "Learn the fundamentals of bonsai wiring to shape and style your tree with confidence."
+image: "/images/bonsai-wiring-cover.jpg"
+---
+
+Wiring is a fundamental technique in the art of bonsai, allowing you to shape and style your tree to create a living masterpiece. By carefully wrapping wire around the trunk and branches, you can guide their growth and create the desired form.
+
+{{< img src="/images/care-basics.png" alt="Bonsai tree with wire on its branches" >}}
+
 ### Why Wire a Bonsai?
 
 *   **Shape and Style:** Wiring is the primary method for shaping your bonsai. It allows you to bend and position branches to create a specific design.
