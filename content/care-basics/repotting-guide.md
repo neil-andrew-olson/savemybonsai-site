@@ -44,4 +44,4 @@ By following these steps, you can successfully repot your indoor bonsai and ensu
 
 ### Recommended Products
 
-{{< product name="Bonsai Outlet Training Pots with Humidity Trays" image="/images/hero-bonsai.jpg" description="Six Inch Large Planters + Made from Durable Shatter-Resistant Plastic" link="https://www.amazon.com/Bonsai-Outlet-Training-Pots-Humidity/dp/B07Y2K8L4M" affiliate="true" price="$14.95" rating="⭐⭐⭐⭐⭐ (3.5K)" cta="Get Bonsai Pot" >}}
+{{< product name="Bonsai Outlet Training Pots with Humidity Trays" image="/images/hero-bonsai.jpg" description="Six Inch Large Planters + Made from Durable Shatter-Resistant Plastic" link="https://www.amazon.com/s?k=bonsai+training+pots+humidity+tray" affiliate="true" price="$14.95" rating="⭐⭐⭐⭐⭐ (3.5K)" cta="Get Bonsai Pot" >}}

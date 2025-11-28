@@ -1,12 +1,3 @@
----
-title: "Boxwood Bonsai Care for Beginners"
-description: "Learn how to care for a Boxwood bonsai, a classic and popular choice for bonsai."
----
-
-The Boxwood is a classic evergreen shrub that is a popular choice for bonsai due to its small leaves and dense growth habit. It is a relatively easy plant to care for, making it a good choice for beginners.
-
-{{< img src="/images/hero-bonsai.jpg" alt="A Boxwood bonsai tree" >}}
-
 ### Light
 
 Boxwood bonsai prefer a location with partial sun. They can tolerate full sun, but the leaves may scorch in hot, direct sun.

@@ -1,12 +1,3 @@
----
-title: "Carmona (Fukien Tea) Bonsai Care"
-description: "Learn how to care for a Carmona (Fukien Tea) bonsai, a beautiful flowering bonsai that is great for indoors."
----
-
-The Carmona or Fukien Tea is a beautiful flowering bonsai that is native to Southeast Asia. It is a popular choice for indoor bonsai because of its small, shiny leaves and delicate white flowers.
-
-{{< img src="/images/hero-bonsai.jpg" alt="A Carmona (Fukien Tea) bonsai tree" >}}
-
 ### Light
 
 Fukien Tea bonsai need a lot of bright, indirect light. They can tolerate some direct morning sun, but too much direct sun can scorch the leaves.

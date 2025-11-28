@@ -1,16 +1,3 @@
----
-title: "Bonsai Soil Stays Wet: Causes & Solutions"
----
-
-
-
-{{< img src="wet-soil.png" alt="Wet Soil" >}}
-
-Bonsai, like all plants, require a delicate balance of moisture to thrive. When the soil remains consistently wet, it creates an anaerobic environment that suffocates the roots, hinders nutrient absorption, and promotes the growth of harmful fungi. Addressing this issue promptly is crucial for preventing root rot and ensuring the long-term health of your bonsai.
-**Understanding the Problem:**
-
-*   **Anaerobic Conditions:** Wet soil deprives the roots of oxygen, which is essential for respiration and nutrient uptake.
-*   **Fungal Growth:** Excess moisture creates a breeding ground for harmful fungi, such as *Phytophthora* and *Pythium*, which attack and destroy the roots.
 *   **Nutrient Imbalance:** Waterlogged soil can leach essential nutrients from the soil, leading to deficiencies that weaken the bonsai.
 
 **Common Causes of Soggy Bonsai Soil:**
