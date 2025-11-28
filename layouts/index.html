@@ -143,7 +143,9 @@
                 <div class="flex items-center gap-2 mb-3">
                     <span class="w-8 h-[1px] bg-gold-500"></span>
                     <span class="text-xs font-bold tracking-widest text-gold-600 uppercase">
+                        {{ if .Params.categories }}
                         {{ range first 1 .Params.categories }}{{ . }}{{ end }}
+                        {{ end }}
                     </span>
                 </div>
                 <h3

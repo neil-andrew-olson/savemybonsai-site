@@ -39,8 +39,10 @@
                 <!-- Content -->
                 <div class="p-8">
                     <div class="mb-4 flex items-center gap-2 text-xs font-bold tracking-widest text-gold-600 uppercase">
+                        {{ if .Params.categories }}
                         {{ range first 1 .Params.categories }}
                         <span>{{ . }}</span>
+                        {{ end }}
                         {{ end }}
                     </div>
                     <h2
