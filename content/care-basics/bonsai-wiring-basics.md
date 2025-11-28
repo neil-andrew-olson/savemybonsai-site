@@ -5,7 +5,7 @@ description: "Learn the fundamentals of bonsai wiring to shape and style your tr
 
 Wiring is a fundamental technique in the art of bonsai, allowing you to shape and style your tree to create a living masterpiece. By carefully wrapping wire around the trunk and branches, you can guide their growth and create the desired form.
 
-{{< img src="/images/bonsai-wiring.jpg" alt="Bonsai tree with wire on its branches" >}}
+{{< img src="/images/care-basics.png" alt="Bonsai tree with wire on its branches" >}}
 
 ### Why Wire a Bonsai?
 
@@ -26,4 +26,4 @@ There are two main types of wire used for bonsai:
 
 Here is a product recommendation to get you started with wiring your bonsai:
 
-{{< product name="5 Roll Aluminum Bonsai Training Wire & Cutter Set" image="/images/hero-bonsai.jpg" description="160 Feet Total with Adjustable Anodized Wire (1.0/1.5/2.0 mm)" link="https://www.amazon.com/5-Roll-Aluminum-Bonsai-Training/dp/B08L5KJH2M" affiliate="true" price="$12.99" rating="⭐⭐⭐⭐⭐ (1K+)" cta="Get Wire Kit" >}}
+{{< product name="5 Roll Aluminum Bonsai Training Wire & Cutter Set" image="/images/hero-bonsai.jpg" description="160 Feet Total with Adjustable Anodized Wire (1.0/1.5/2.0 mm)" link="https://www.amazon.com/s?k=bonsai+training+wire+aluminum" affiliate="true" price="$12.99" rating="⭐⭐⭐⭐⭐ (1K+)" cta="Get Wire Kit" >}}

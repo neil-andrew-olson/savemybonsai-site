@@ -25,4 +25,4 @@ Jade bonsai need a well-draining soil mix. A succulent or cactus mix is a good c
 
 Here is a product recommendation to help you care for your Jade bonsai:
 
-{{< product name="DUSPRO Succulents Soil Potting Mix - 7 in 1 Ingredients" image="/images/hero-bonsai.jpg" description="Well-Draining, Nutrient-Rich Cactus & Succulent Potting Soil" link="https://www.amazon.com/DUSPRO-Succulents-Soil-Potting-Mix/dp/B08N5K7L2P" affiliate="true" price="$9.99" rating="⭐⭐⭐⭐⭐ (621)" cta="Get Soil Mix" >}}
+{{< product name="DUSPRO Succulents Soil Potting Mix - 7 in 1 Ingredients" image="/images/hero-bonsai.jpg" description="Well-Draining, Nutrient-Rich Cactus & Succulent Potting Soil" link="https://www.amazon.com/s?k=succulent+potting+mix" affiliate="true" price="$9.99" rating="⭐⭐⭐⭐⭐ (621)" cta="Get Soil Mix" >}}

@@ -50,7 +50,7 @@ Aphids are one of the most common pests affecting indoor bonsai trees. These tin
   image="/images/ladybug-habitat.jpg"
   price="$19.99"
   rating="⭐⭐⭐⭐⭐ (1,345 reviews)"
-  link="https://www.amazon.com/Live-Ladybugs-Aphid-Control-Natural/dp/B07Y2K8L4M"
+  link="https://www.amazon.com/s?k=live+ladybugs+aphid+control"
   cta="Buy Ladybugs"
   affiliate="true"
 >}}
@@ -61,7 +61,7 @@ Aphids are one of the most common pests affecting indoor bonsai trees. These tin
   image="/images/neem-oil-spray.jpg"
   price="$16.99"
   rating="⭐⭐⭐⭐⭐ (2,847 reviews)"
-  link="https://www.amazon.com/Natural-Neem-Oil-Insecticide-Aphids/dp/B06ZWKJ6MY"
+  link="https://www.amazon.com/s?k=neem+oil+spray+plants"
   cta="Get Neem Oil"
   affiliate="true"
 >}}
@@ -73,7 +73,7 @@ Aphids are one of the most common pests affecting indoor bonsai trees. These tin
   image="/images/bonsai-pest-control.jpg"
   price="$24.99"
   rating="⭐⭐⭐⭐⭐ (1,203 reviews)"
-  link="https://www.amazon.com/Bonsai-Pest-Control-Systemic-Spray/dp/B08NC2J57F"
+  link="https://www.amazon.com/s?k=bonsai+systemic+insect+control"
   cta="Buy Systemic Spray"
   affiliate="true"
 >}}
@@ -84,7 +84,7 @@ Aphids are one of the most common pests affecting indoor bonsai trees. These tin
   image="/images/bonide-pest-control.jpg"
   price="$18.99"
   rating="⭐⭐⭐⭐⭐ (742 reviews)"
-  link="https://www.amazon.com/Bonide-Indoor-Pest-Spray-Aphids/dp/B001E4SJA4"
+  link="https://www.amazon.com/s?k=bonide+insect+control+houseplants"
   cta="Get Bonide Spray"
   affiliate="true"
 >}}
@@ -111,7 +111,7 @@ Aphids are one of the most common pests affecting indoor bonsai trees. These tin
   image="/images/humidity-tray-gravel.jpg"
   price="$13.99"
   rating="⭐⭐⭐⭐⭐ (979 reviews)"
-  link="https://www.amazon.com/Humidity-Tray-Bonsai-Gravel-Drainage/dp/B07GQY4H5J"
+  link="https://www.amazon.com/s?k=bonsai+humidity+tray"
   cta="Control Humidity"
   affiliate="true"
 >}}
@@ -122,7 +122,7 @@ Aphids are one of the most common pests affecting indoor bonsai trees. These tin
   image="/images/bonsai-grow-light.jpg"
   price="$79.99"
   rating="⭐⭐⭐⭐⭐ (1,847 reviews)"
-  link="https://www.amazon.com/Bonsai-Grow-Light-Indoor-Plants/dp/B07ZGKJ4M2"
+  link="https://www.amazon.com/s?k=bonsai+grow+light"
   cta="Strengthen Trees"
   affiliate="true"
 >}}
@@ -222,7 +222,7 @@ Aphids are one of the most common pests affecting indoor bonsai trees. These tin
   image="/images/aphid-control-kit.jpg"
   price="$67.99"
   rating="⭐⭐⭐⭐⭐ (1,892 reviews)"
-  link="https://www.amazon.com/Complete-Bonsai-Aphid-Control-Kit/dp/B09L5KJH2M"
+  link="https://www.amazon.com/s?k=bonsai+pest+control+kit"
   cta="Get Full Kit"
   affiliate="true"
 >}}

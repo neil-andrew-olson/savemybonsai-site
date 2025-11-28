@@ -25,4 +25,4 @@ Fukien Tea bonsai appreciate high humidity. To increase the humidity around your
 
 Here is a product recommendation to help you care for your Fukien Tea bonsai:
 
-{{< product name="Tinyroots Bonsai Humidity Tray, 7-Inch Drip Tray" image="/images/hero-bonsai.jpg" description="Maintains Moisture for Plants and Helps Protect Furniture" link="https://www.amazon.com/Tinyroots-Bonsai-Humidity-Tray-7-Inch/dp/B07K8KQK1Z" affiliate="true" price="$9.99" rating="⭐⭐⭐⭐⭐ (401)" cta="Get Humidity Tray" >}}
+{{< product name="Tinyroots Bonsai Humidity Tray, 7-Inch Drip Tray" image="/images/hero-bonsai.jpg" description="Maintains Moisture for Plants and Helps Protect Furniture" link="https://www.amazon.com/s?k=bonsai+humidity+tray" affiliate="true" price="$9.99" rating="⭐⭐⭐⭐⭐ (401)" cta="Get Humidity Tray" >}}

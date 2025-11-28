@@ -48,7 +48,7 @@ By carefully observing your bonsai and addressing any issues promptly, you can p
   image="/images/bonsai-soil-akadama.jpg"
   price="$24.99"
   rating="⭐⭐⭐⭐⭐ (2,847 reviews)"
-  link="https://www.amazon.com/2-5lb-Hard-Akadama-Bonsai-Soil/dp/B08L5KJH2M"
+  link="https://www.amazon.com/s?k=akadama+bonsai+soil"
   cta="Fix Drainage Issues"
   affiliate="true"
 >}}
@@ -59,7 +59,7 @@ By carefully observing your bonsai and addressing any issues promptly, you can p
   image="/images/moisture-meter-digital.jpg"
   price="$17.99"
   rating="⭐⭐⭐⭐⭐ (1,234 reviews)"
-  link="https://www.amazon.com/Moisture-Meter-Plant-Watering-Tester/dp/B07K8KQK1Z"
+  link="https://www.amazon.com/s?k=plant+moisture+meter"
   cta="Prevent Overwatering"
   affiliate="true"
 >}}
@@ -71,7 +71,7 @@ By carefully observing your bonsai and addressing any issues promptly, you can p
   image="/images/bonsai-fertilizer-complete.jpg"
   price="$19.99"
   rating="⭐⭐⭐⭐⭐ (892 reviews)"
-  link="https://www.amazon.com/Bonsai-Fertilizer-Complete-Balanced-Supplement/dp/B07Y2K8L4M"
+  link="https://www.amazon.com/s?k=bonsai+fertilizer"
   cta="Fix Nutrient Deficiencies"
   affiliate="true"
 >}}
@@ -82,7 +82,7 @@ By carefully observing your bonsai and addressing any issues promptly, you can p
   image="/images/iron-supplement-bonsai.jpg"
   price="$14.99"
   rating="⭐⭐⭐⭐⭐ (456 reviews)"
-  link="https://www.amazon.com/Iron-Supplement-Chlorosis-Treatment-Plant/dp/B08N5K7L2P"
+  link="https://www.amazon.com/s?k=chelated+iron+for+plants"
   cta="Treat Iron Deficiency"
   affiliate="true"
 >}}
@@ -94,7 +94,7 @@ By carefully observing your bonsai and addressing any issues promptly, you can p
   image="/images/yellow-leaves-kit.jpg"
   price="$67.99"
   rating="⭐⭐⭐⭐⭐ (1,203 reviews)"
-  link="https://www.amazon.com/Bonsai-Yellow-Leaves-Emergency-Kit/dp/B09L5KJH2M"
+  link="https://www.amazon.com/s?k=bonsai+care+kit"
   cta="Get Complete Solution"
   affiliate="true"
 >}}

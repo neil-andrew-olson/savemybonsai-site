@@ -53,16 +53,11 @@
             <a href="/care-basics"
                 class="group relative md:col-span-8 row-span-2 overflow-hidden rounded-sm shadow-2xl">
                 <div class="absolute inset-0 bg-bonsai-900">
-                    <!-- Placeholder for category image -->
-                    <div class="w-full h-full bg-bonsai-800 flex items-center justify-center text-bonsai-700">
-                        <svg class="w-32 h-32 opacity-20" fill="currentColor" viewBox="0 0 20 20">
-                            <path
-                                d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-                        </svg>
-                    </div>
+                    <img src="/images/care-basics.png" alt="Bonsai Care Basics"
+                        class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700">
                 </div>
                 <div
-                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90 transition-opacity group-hover:opacity-100">
+                    class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 transition-opacity group-hover:opacity-100">
                 </div>
                 <div
                     class="absolute bottom-0 left-0 p-10 md:p-14 transform transition-transform duration-500 group-hover:-translate-y-2">
@@ -77,15 +72,12 @@
             <!-- Medium Card 1 -->
             <a href="/species" class="group relative md:col-span-4 row-span-1 overflow-hidden rounded-sm shadow-xl">
                 <div class="absolute inset-0 bg-bonsai-800">
-                    <div class="w-full h-full bg-bonsai-700 flex items-center justify-center text-bonsai-600">
-                        <svg class="w-24 h-24 opacity-20" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd"
-                                d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </div>
+                    <img src="/images/species-guide.png" alt="Bonsai Species Guide"
+                        class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700">
                 </div>
-                <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90 transition-opacity group-hover:opacity-100">
+                </div>
                 <div class="absolute bottom-0 left-0 p-8">
                     <h3 class="text-2xl font-serif text-white mb-1 group-hover:text-gold-400 transition-colors">Species
                         Guide</h3>
@@ -97,15 +89,12 @@
             <a href="/bonsai/problems"
                 class="group relative md:col-span-4 row-span-1 overflow-hidden rounded-sm shadow-xl">
                 <div class="absolute inset-0 bg-gold-900">
-                    <div class="w-full h-full bg-gold-800 flex items-center justify-center text-gold-700">
-                        <svg class="w-24 h-24 opacity-20" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd"
-                                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </div>
+                    <img src="/images/troubleshooting.png" alt="Bonsai Troubleshooting"
+                        class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700">
                 </div>
-                <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors"></div>
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90 transition-opacity group-hover:opacity-100">
+                </div>
                 <div class="absolute bottom-0 left-0 p-8">
                     <h3 class="text-2xl font-serif text-white mb-1 group-hover:text-gold-400 transition-colors">
                         Troubleshooting</h3>
@@ -150,7 +139,7 @@
                 <div class="flex-1 flex flex-col">
                     <div
                         class="flex items-center gap-3 text-xs font-medium text-gold-600 uppercase tracking-wider mb-3">
-                        <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                        <span>Article</span>
                     </div>
                     <h3
                         class="text-2xl font-serif font-bold text-bonsai-900 mb-3 leading-tight group-hover:text-gold-600 transition-colors">

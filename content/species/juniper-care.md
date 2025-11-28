@@ -73,4 +73,4 @@ By following these care tips, you can ensure that your indoor juniper bonsai thr
 
 Here is a product recommendation to help you care for your Juniper bonsai:
 
-{{< product name="Juniper Bonsai Fertilizer" image="/images/bonsai-fertilizer.jpg" description="A specialized fertilizer formulated for juniper bonsai trees." link="https://www.amazon.com/Juniper-Bonsai-Fertilizer-Specialized-Formula/dp/B08CGP8K6Q" affiliate="true" price="$16.99" rating="⭐⭐⭐⭐⭐ (892)" cta="Get Fertilizer" >}}
+{{< product name="Juniper Bonsai Fertilizer" image="/images/bonsai-fertilizer.jpg" description="A specialized fertilizer formulated for juniper bonsai trees." link="https://www.amazon.com/s?k=juniper+bonsai+fertilizer" affiliate="true" price="$16.99" rating="⭐⭐⭐⭐⭐ (892)" cta="Get Fertilizer" >}}

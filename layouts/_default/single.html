@@ -11,21 +11,16 @@
                     class="hover:text-bonsai-900 transition-colors">{{ . }}</a>
                 {{ end }}
                 {{ end }}
-                <span class="text-bonsai-300">&bull;</span>
-                <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
             </div>
 
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-bonsai-950 mb-8 leading-tight">{{
                 .Title }}</h1>
 
-            <div class="flex items-center justify-center gap-6 text-bonsai-500 text-sm font-medium">
-                <div class="flex items-center gap-2">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                    <span>{{ .ReadingTime }} min read</span>
-                </div>
+            <div class="flex items-center justify-center gap-4 text-sm text-bonsai-500 mb-8">
+                <span class="uppercase tracking-widest font-bold text-gold-600">{{ .Params.categories | default "Guide"
+                    }}</span>
+                <span class="w-1 h-1 bg-bonsai-300 rounded-full"></span>
+                <span>{{ .ReadingTime }} min read</span>
             </div>
         </div>
     </header>
