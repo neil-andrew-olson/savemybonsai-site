@@ -40,7 +40,7 @@ Repotting is one of the most important aspects of bonsai care. It refreshes the 
   image="/images/bonsai-tool-set.jpg"
   price="$89.99"
   rating="⭐⭐⭐⭐⭐ (1,847 reviews)"
-  link="https://www.amazon.com/6-Piece-Bonsai-Tool-Set-Knob/dp/B07Y2K8L4M?tag=savemybonsai-20"
+  link="https://www.amazon.com/6-Piece-Bonsai-Tool-Set-Knob/dp/B07Y2K8L4M"
   cta="Get Professional Tools"
   affiliate="true"
 >}}
@@ -51,7 +51,7 @@ Repotting is one of the most important aspects of bonsai care. It refreshes the 
   image="/images/premium-bonsai-soil.jpg"
   price="$34.99"
   rating="⭐⭐⭐⭐⭐ (2,156 reviews)"
-  link="https://www.amazon.com/Premium-Bonsai-Soil-Professional-Drainage/dp/B08L5KJH2M?tag=savemybonsai-20"
+  link="https://www.amazon.com/Premium-Bonsai-Soil-Professional-Drainage/dp/B08L5KJH2M"
   cta="Get Premium Soil"
   affiliate="true"
 >}}
@@ -148,7 +148,7 @@ Repotting is one of the most important aspects of bonsai care. It refreshes the 
   image="/images/bonsai-root-hook.jpg"
   price="$24.99"
   rating="⭐⭐⭐⭐⭐ (678 reviews)"
-  link="https://www.amazon.com/Bonsai-Root-Hook-Rake-Stainless/dp/B07K8KQK1Z?tag=savemybonsai-20"
+  link="https://www.amazon.com/Bonsai-Root-Hook-Rake-Stainless/dp/B07K8KQK1Z"
   cta="Get Root Tools"
   affiliate="true"
 >}}
@@ -160,7 +160,7 @@ Repotting is one of the most important aspects of bonsai care. It refreshes the 
   image="/images/bonsai-drainage-mesh.jpg"
   price="$12.99"
   rating="⭐⭐⭐⭐⭐ (1,445 reviews)"
-  link="https://www.amazon.com/Bonsai-Drainage-Mesh-Professional-Screens/dp/B08N5K7L2P?tag=savemybonsai-20"
+  link="https://www.amazon.com/Bonsai-Drainage-Mesh-Professional-Screens/dp/B08N5K7L2P"
   cta="Improve Drainage"
   affiliate="true"
 >}}
@@ -172,7 +172,7 @@ Repotting is one of the most important aspects of bonsai care. It refreshes the 
   image="/images/bonsai-repotting-kit.jpg"
   price="$127.99"
   rating="⭐⭐⭐⭐⭐ (892 reviews)"
-  link="https://www.amazon.com/Professional-Bonsai-Repotting-Complete/dp/B09L5KJH2M?tag=savemybonsai-20"
+  link="https://www.amazon.com/Professional-Bonsai-Repotting-Complete/dp/B09L5KJH2M"
   cta="Get Complete Kit"
   affiliate="true"
 >}}
