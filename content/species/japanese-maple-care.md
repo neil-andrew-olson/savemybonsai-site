@@ -1,6 +1,6 @@
 ---
 title: "Japanese Maple Bonsai Care for Beginners"
-image: "/images/species-guide.png"
+image: "/images/japanese_maple_bonsai.jpg"
 description: "Learn how to care for a Japanese Maple bonsai, a beautiful and iconic bonsai tree."
 ---
 

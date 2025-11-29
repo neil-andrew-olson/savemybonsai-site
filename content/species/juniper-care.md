@@ -1,6 +1,6 @@
 ---
 title: "Indoor Juniper Bonsai Care for Beginners"
-image: "/images/species-guide.png"
+image: "/images/juniper_bonsai.jpg"
 ---
 
 
