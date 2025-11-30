@@ -1,7 +1,7 @@
 ---
 title: "Chinese Elm Bonsai Care for Beginners"
 description: "Learn how to care for a Chinese Elm bonsai, a versatile and resilient bonsai tree."
-image: "/images/species-guide.png"
+image: "/images/chinese_elm_bonsai.jpg"
 ---
 
 The Chinese Elm is a highly adaptable tree that is well-suited for bonsai cultivation. It is a great choice for beginners because it is tolerant of a wide range of conditions and is relatively easy to care for.
