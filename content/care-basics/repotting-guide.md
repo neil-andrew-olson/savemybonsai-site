@@ -1,6 +1,6 @@
 ---
 title: "Step‑by‑Step Guide to Repotting Indoor Bonsai"
-image: "/images/care-basics.png"
+image: "/images/bonsai_repotting.jpg"
 ---
 
 

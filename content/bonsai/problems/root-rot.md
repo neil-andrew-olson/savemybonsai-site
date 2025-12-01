@@ -1,6 +1,6 @@
 ---
 title: "How to Detect and Treat Bonsai Root Rot"
-image: "/images/troubleshooting.png"
+image: "/images/bonsai_root_rot.jpg"
 ---
 
 {{< img src="root-rot.png" alt="Root Rot" >}}

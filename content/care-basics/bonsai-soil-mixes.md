@@ -1,6 +1,6 @@
 ---
 title: The Perfect Bonsai Soil Mix
-image: "/images/care-basics.png"
+image: "/images/bonsai_soil_mix.jpg"
 description: Learn how to create the perfect soil mix for your bonsai tree to ensure it thrives.
 ---
 

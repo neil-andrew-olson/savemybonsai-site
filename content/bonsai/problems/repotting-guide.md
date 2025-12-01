@@ -1,7 +1,7 @@
 ---
 title: "Complete Bonsai Repotting Guide - Step by Step"
 description: "Master the art of bonsai repotting with our comprehensive guide. Learn when, how, and why to repot your indoor bonsai for optimal health."
-image: "/images/care-basics.png"
+image: "/images/bonsai_repotting.jpg"
 ---
 
 {{< img src="repotting-bonsai.png" alt="Bonsai Repotting Process" >}}
