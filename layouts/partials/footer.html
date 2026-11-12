@@ -48,11 +48,42 @@
     <div>
       <h4 class="text-gold-500 font-serif font-bold mb-6">Stay Cultivated</h4>
       <p class="text-xs text-bonsai-300 mb-4">Join our newsletter for weekly bonsai tips and inspiration.</p>
-      <form class="space-y-2">
-        <input type="email" placeholder="Your email address"
+      <form id="footer-newsletter-form" data-form-name="SaveMyBonsai Footer Newsletter" data-custom-lead-handler="true" class="space-y-2">
+        <input type="email" name="email" required placeholder="Your email address"
           class="w-full bg-bonsai-900 border border-bonsai-800 rounded-sm px-4 py-3 text-sm text-white placeholder-bonsai-500 focus:outline-none focus:border-gold-500 transition-colors">
         <button type="submit" class="w-full btn btn-gold py-2 text-xs">Subscribe</button>
       </form>
+      <p id="footer-newsletter-msg" class="text-xs text-gold-400 mt-2 hidden">✓ Subscribed! Welcome to Save My Bonsai.</p>
+      <script>
+        (function() {
+          var f = document.getElementById('footer-newsletter-form');
+          var msg = document.getElementById('footer-newsletter-msg');
+          if (!f) return;
+          f.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var emailInput = f.querySelector('input[type="email"]');
+            var email = emailInput ? emailInput.value.trim() : '';
+            if (!email) return;
+            var btn = f.querySelector('button[type="submit"]');
+            if (btn) { btn.disabled = true; btn.textContent = 'Subscribing...'; }
+            var done = function() {
+              f.classList.add('hidden');
+              if (msg) msg.classList.remove('hidden');
+            };
+            if (window.DakotaAnalytics && window.DakotaAnalytics.submitLead) {
+              window.DakotaAnalytics.submitLead({
+                page: window.location.pathname || '/',
+                formName: 'SaveMyBonsai Footer Newsletter',
+                name: email.split('@')[0],
+                email: email,
+                message: 'Subscribed via footer newsletter'
+              }).finally(done);
+            } else {
+              done();
+            }
+          });
+        })();
+      </script>
     </div>
   </div>
   <div class="container mt-16 pt-8 border-t border-bonsai-900 text-center text-xs text-bonsai-500">

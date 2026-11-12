@@ -85,7 +85,7 @@
           <p class="text-gray-600">Get free weekly care insights delivered to your inbox</p>
         </div>
 
-        <form id="newsletter-form" class="space-y-4">
+        <form id="newsletter-form" data-form-name="SaveMyBonsai Premium Care Newsletter" data-custom-lead-handler="true" class="space-y-4">
           <div class="grid md:grid-cols-2 gap-4">
             <div>
               <input
@@ -225,6 +225,17 @@ document.addEventListener('DOMContentLoaded', function() {
         submitBtn.innerHTML = originalText;
         submitBtn.disabled = false;
         return;
+      }
+
+      // Persist to Supabase & send instant push/email notifications
+      if (window.DakotaAnalytics && window.DakotaAnalytics.submitLead) {
+        window.DakotaAnalytics.submitLead({
+          page: window.location.pathname || '/',
+          formName: 'SaveMyBonsai Premium Care Newsletter',
+          name: `${firstname} ${lastname}`.trim(),
+          email: String(formData.get('email') || ''),
+          message: 'Subscribed to Premium Care Guides Newsletter'
+        });
       }
 
       // Show success message
